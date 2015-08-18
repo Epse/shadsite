@@ -4,7 +4,7 @@
 <head>
 <title>Play & Win !</title>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<meta name="Keywords" content="GSX-R world contest wereldrecord 2010 Haùmme-Zogge Suzuki hayabusa Belgium">
+<meta name="Keywords" content="GSX-R world contest wereldrecord 2010 Haï¿½mme-Zogge Suzuki hayabusa Belgium">
 <meta name="Generator" content="NetObjects Fusion 10 for Windows">
 <script type="text/javascript">
 <!--
@@ -17,49 +17,8 @@ function F_loadRollover(){} function F_roll(){}
 </head>
 <body style="text-align: center; background-color: rgb(0,0,0); margin: 0px;">
  <div align="center">
- <table border="0" cellspacing="0" cellpadding="0">
-  <tr>
-   <td>
-    <table border="0" cellspacing="0" cellpadding="0">
-     <tr valign="top" align="left">
-      <td width="960">
-       <table id="Table49" border="0" cellspacing="0" cellpadding="0" width="100%" style="border-left-color:  rgb(255,255,255); border-left-style: solid; border-top-color:  rgb(255,255,255); border-top-style: solid; border-right-color:  rgb(255,255,255); border-right-style: solid; border-bottom-color:  rgb(255,255,255); border-bottom-style: solid; height: 193;">
-        <tr style="height: 18px;">
-         <td width="960" style="background-color: rgb(0,0,0); padding: 2px;">
-          <p style="text-align: center;"><b><span style="font-size: 12px; color: rgb(255,255,255);">SHAD Belgium : cases - seats - lugage : <a href="mailto:info@shad.be" target="_blank">info@shad.be</a></span></b></p>
-         </td>
-        </tr>
-        <tr style="height: 155px;">
-         <td style="background-color: rgb(255,255,255);">
-          <p><a href="../index.html"><img id="Picture6" height="155" width="960" src="../assets/images/topbanner_bikeparts_990_175_SHAD.jpg" vspace="0" hspace="0" align="TOP" border="0" alt="SHAD BENELUX" title="SHAD BENELUX" usemap="#map0"><map name="map0"><area shape="rect" alt="" coords="827,1,960,121" href="http://www.shad.es/getCatalogue.php"><area shape="rect" alt="SHAD BENELUX" title="SHAD BENELUX" coords="0,0,959,154" href="../index.html"></map></a></p>
-         </td>
-        </tr>
-        <tr style="height: 20px;">
-         <td style="background-image: url('../assets/images/bg1.gif');">
-          <table width="100%" border="0" cellspacing="0" cellpadding="0">
-           <tr>
-            <td align="CENTER">
-             <table id="NavigationBar10" border="0" cellspacing="0" cellpadding="0" width="960">
-              <tr valign="top" align="left">
-               <td width="120"><a href="../index.html" style="cursor:hand; text-decoration:none;" onMouseOver="F_loadRollover('NavigationButton1','',0);F_roll('NavigationButton1',1)" onMouseOut="F_roll('NavigationButton1',0)"><img id="NavigationButton1" name="NavigationButton1" height="20" width="120" src="../assets/images/autogen/Shad_Benelux_Nregular_1_-_kopie_1.gif" onmouseover="F_loadRollover(this,'Shad_Benelux_NRregular_1_-_kopie_1.gif',0)" border="0" alt="Shad Benelux" title="Shad Benelux"></a></td>
-               <td width="120"><a href="../html/welkom.html" style="cursor:hand; text-decoration:none;" onMouseOver="F_loadRollover('NavigationButton2','',0);F_roll('NavigationButton2',1)" onMouseOut="F_roll('NavigationButton2',0)"><img id="NavigationButton2" name="NavigationButton2" height="20" width="120" src="../assets/images/autogen/Welkom_Nregular_1_-_kopie_1.gif" onmouseover="F_loadRollover(this,'Welkom_NRregular_1_-_kopie_1.gif',0)" border="0" alt="Welkom" title="Welkom"></a></td>
-               <td width="120"><a href="../html/bienvenu.html" style="cursor:hand; text-decoration:none;" onMouseOver="F_loadRollover('NavigationButton3','',0);F_roll('NavigationButton3',1)" onMouseOut="F_roll('NavigationButton3',0)"><img id="NavigationButton3" name="NavigationButton3" height="20" width="120" src="../assets/images/autogen/Bienvenu_Nregular_1_-_kopie_1.gif" onmouseover="F_loadRollover(this,'Bienvenu_NRregular_1_-_kopie_1.gif',0)" border="0" alt="Bienvenu" title="Bienvenu"></a></td>
-               <td width="120"><a href="../html/products.html" style="cursor:hand; text-decoration:none;" onMouseOver="F_loadRollover('NavigationButton4','',0);F_roll('NavigationButton4',1)" onMouseOut="F_roll('NavigationButton4',0)"><img id="NavigationButton4" name="NavigationButton4" height="20" width="120" src="../assets/images/autogen/Products_Nregular_1_-_kopie_1.gif" onmouseover="F_loadRollover(this,'Products_NRregular_1_-_kopie_1.gif',0)" border="0" alt="Products" title="Products"></a></td>
-               <td width="120"><a href="../html/dealers.html" style="cursor:hand; text-decoration:none;" onMouseOver="F_loadRollover('NavigationButton5','',0);F_roll('NavigationButton5',1)" onMouseOut="F_roll('NavigationButton5',0)"><img id="NavigationButton5" name="NavigationButton5" height="20" width="120" src="../assets/images/autogen/Dealers_Nregular_1_-_kopie_1.gif" onmouseover="F_loadRollover(this,'Dealers_NRregular_1_-_kopie_1.gif',0)" border="0" alt="Dealers" title="Dealers"></a></td>
-               <td width="120"><a href="../html/play___win__.html" style="cursor:hand; text-decoration:none;" onMouseOver="F_loadRollover('NavigationButton6','',0);F_roll('NavigationButton6',1)" onMouseOut="F_roll('NavigationButton6',0)"><img id="NavigationButton6" name="NavigationButton6" height="20" width="120" src="../assets/images/autogen/Play___Win___Hregular_2_-_kopie_1.gif" onmouseover="F_loadRollover(this,'Play___Win___HRregular_3_1.gif',0)" border="0" alt="Play & Win !" title="Play & Win !"></a></td>
-               <td width="120"><a href="../html/newsletter.html" style="cursor:hand; text-decoration:none;" onMouseOver="F_loadRollover('NavigationButton7','',0);F_roll('NavigationButton7',1)" onMouseOut="F_roll('NavigationButton7',0)"><img id="NavigationButton7" name="NavigationButton7" height="20" width="120" src="../assets/images/autogen/Newsletter_Nregular_1_-_kopie_1.gif" onmouseover="F_loadRollover(this,'Newsletter_NRregular_1_-_kopie_1.gif',0)" border="0" alt="Newsletter" title="Newsletter"></a></td>
-               <td width="120" height="20"><a href="../html/contact__.html" style="cursor:hand; text-decoration:none;" onMouseOver="F_loadRollover('NavigationButton8','',0);F_roll('NavigationButton8',1)" onMouseOut="F_roll('NavigationButton8',0)"><img id="NavigationButton8" name="NavigationButton8" height="20" width="120" src="../assets/images/autogen/Contact___Nregular_1_-_kopie_1.gif" onmouseover="F_loadRollover(this,'Contact___NRregular_1_-_kopie_1.gif',0)" border="0" alt="Contact !" title="Contact !"></a></td>
-              </tr>
-             </table>
-            </td>
-           </tr>
-          </table>
-         </td>
-        </tr>
-       </table>
-      </td>
-     </tr>
-    </table>
+   <!-- header include -->
+   <?php include '../include/header.html'; ?>
     <table border="0" cellspacing="0" cellpadding="0">
      <tr valign="top" align="left">
       <td width="960">
@@ -75,20 +34,20 @@ function F_loadRollover(){} function F_roll(){}
            <li>Waterdichte GPS houder</li>
            <li>Documentenhouder</li>
           </ul>
-          <p><b>Gratis wedstrijd van SHAD België tot 28/02/2013. </b><br><br>De winnaar zal persoonlijk worden verwittigd via e-mail.</p>
-          <p><b>Wat moet je doen om te winnen?</b><br><br>Stuur&nbsp;ons een mail. Je gegevens wordt bewaard en opgeslagen bij SHAD België en niet doorgegeven aan externe partners. U wordt occasioneel op de hoogte gehouden van aanbiedingen en volgende activiteiten van Shad België.<br><br>That&#8217;s it !<br>&nbsp;</p>
+          <p><b>Gratis wedstrijd van SHAD Belgiï¿½ tot 28/02/2013. </b><br><br>De winnaar zal persoonlijk worden verwittigd via e-mail.</p>
+          <p><b>Wat moet je doen om te winnen?</b><br><br>Stuur&nbsp;ons een mail. Je gegevens wordt bewaard en opgeslagen bij SHAD Belgiï¿½ en niet doorgegeven aan externe partners. U wordt occasioneel op de hoogte gehouden van aanbiedingen en volgende activiteiten van Shad Belgiï¿½.<br><br>That&#8217;s it !<br>&nbsp;</p>
          </td>
          <td width="470">
-          <p><b><br>Participez et gagnez gratuitement ce equipement complèt de SHAD :</b></p>
+          <p><b><br>Participez et gagnez gratuitement ce equipement complï¿½t de SHAD :</b></p>
           <ul>
            <li>Topcase de 48 litres</li>
            <li>Montage pour topcase</li>
            <li>Sac pour la tanque ou le scooter</li>
-           <li>Sac à&nbsp;dos</li>
-           <li>Porte GPS imperméable</li>
+           <li>Sac ï¿½&nbsp;dos</li>
+           <li>Porte GPS impermï¿½able</li>
            <li>Porte document</li>
           </ul>
-          <p><b>Coucours gratuit de SHAD Belgique jus qu&#8217;à 28/02/2013.</b><br><br>Le gagnant sera contacté personellement par e-mail.<br><br><br><b>Quoi faire pour garner :</b><br><br>Envoyez nous un mail. Votre information sera conservé chez SHAD Belgique et ne sara pas distribué à des tiers. On vous tiendra au courant de façon occasionnel des nos offres et activités.<br><br>C&#8217;est tout!<br>&nbsp;</p>
+          <p><b>Coucours gratuit de SHAD Belgique jus qu&#8217;ï¿½ 28/02/2013.</b><br><br>Le gagnant sera contactï¿½ personellement par e-mail.<br><br><br><b>Quoi faire pour garner :</b><br><br>Envoyez nous un mail. Votre information sera conservï¿½ chez SHAD Belgique et ne sara pas distribuï¿½ ï¿½ des tiers. On vous tiendra au courant de faï¿½on occasionnel des nos offres et activitï¿½s.<br><br>C&#8217;est tout!<br>&nbsp;</p>
          </td>
         </tr>
         <tr style="height: 677px;">
@@ -114,8 +73,8 @@ function F_loadRollover(){} function F_roll(){}
        <table id="Table52" border="0" cellspacing="0" cellpadding="0" width="100%" style="background-color: rgb(255,255,255); border-left-color:  rgb(255,255,255); border-left-style: solid; border-top-color:  rgb(255,255,255); border-top-style: solid; border-right-color:  rgb(255,255,255); border-right-style: solid; border-bottom-color:  rgb(255,255,255); border-bottom-style: solid; height: 278;">
         <tr style="height: 101px;">
          <td width="960">
-          <p style="text-align: center;"><br>Koffers, tassen, zadels en accessoires van superieure kwaliteit.<br>Coffres, sacs, selles et accessoires de qualité supérieur.<br><hr id="HRRule1" width="100%" align="center" size="2"></p>
-          <p style="text-align: center;">Visit SHAD International <b> : </b><a href="http://www.shad.es/en/shad-world/" target="_blank">English</a> - <a href="http://www.shad.es/fr/shad-world/" target="_blank">Français</a> - <a href="http://www.shad.es/de/shad-world/" target="_blank">Deutch</a></p>
+          <p style="text-align: center;"><br>Koffers, tassen, zadels en accessoires van superieure kwaliteit.<br>Coffres, sacs, selles et accessoires de qualitï¿½ supï¿½rieur.<br><hr id="HRRule1" width="100%" align="center" size="2"></p>
+          <p style="text-align: center;">Visit SHAD International <b> : </b><a href="http://www.shad.es/en/shad-world/" target="_blank">English</a> - <a href="http://www.shad.es/fr/shad-world/" target="_blank">Franï¿½ais</a> - <a href="http://www.shad.es/de/shad-world/" target="_blank">Deutch</a></p>
          </td>
         </tr>
         <tr style="height: 312px;">
@@ -139,4 +98,3 @@ function F_loadRollover(){} function F_roll(){}
   </div>
  </body>
  </html>
-  
