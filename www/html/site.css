@@ -6,3 +6,8 @@ ul.hornavbar {
   margin: 0;
   padding: 0;
 }
+
+a.hornavlink {
+    display: block;
+    width: 60px;
+}
