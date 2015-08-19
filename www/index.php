@@ -24,7 +24,7 @@ function F_loadRollover(){} function F_roll(){}
 <body style="text-align: center; background-color: rgb(0,0,0); background-image: none; margin: 0px;">
  <div align="center">
    <!-- header include -->
-   <?php include 'include/header.php'; ?>
+   <?php include 'include/header.html'; ?>
   </div>
  </body>
  </html>
