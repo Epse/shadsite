@@ -12,6 +12,10 @@ body
 	scrollbar-darkshadow-color : #000000
 }
 
+.maincontent {
+	background-color: white;
+}
+
 .centered {
 	text-align: center;
 }
