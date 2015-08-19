@@ -11,6 +11,10 @@
   width: 990px;
 }
 
+.lightgreyfooter {
+  background-color: rgb(192,192,192);
+}
+
 ul.hornavbar {
   list-style-type: none;
   margin: 0;
