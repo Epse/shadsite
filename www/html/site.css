@@ -10,6 +10,7 @@ ul.hornavbar {
 a.hornavlink {
     display: block;
     width: 60px;
+    text-align: center;
 }
 
 li.hornavbar {
