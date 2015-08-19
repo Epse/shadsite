@@ -8,7 +8,7 @@ ul.hornavbar {
   overflow: hidden;
 }
 
-a.hornavlink:link a.hornavlink:visited {
+a.hornavlink {
     display: block;
     width: 60px;
     color: rgb(255, 255, 255);
