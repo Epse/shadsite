@@ -1,7 +1,11 @@
 /* CSS definition file containing site wide stylesheets */
 
 /* Vertical navbar! */
-.hornavbar, .footer {
+.hornavbar {
+  display: inline-block;
+}
+
+.footer{
   display: inline-block;
   background-color: white;
 }
