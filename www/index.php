@@ -22,11 +22,9 @@ function F_loadRollover(){} function F_roll(){}
 <link rel="stylesheet" type="text/css" href="./html/site.css">
 </head>
 <body style="text-align: center; background-color: rgb(0,0,0); background-image: none; margin: 0px;">
- <div align="center">
-   <!-- header include -->
-   <?php include 'include/header.html'; ?>
-   <!-- footer include -->
-   <?php include 'include/footer.html'; ?>
-  </div>
+  <!-- header include -->
+  <?php include 'include/header.html'; ?>
+  <!-- footer include -->
+  <?php include 'include/footer.html'; ?>
  </body>
  </html>
