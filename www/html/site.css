@@ -35,3 +35,8 @@ a:active.hornavlink {
 li.hornavbar {
   float: left;
 }
+
+#headertxt {
+  font-size: 12px;
+  color: #ffffff;
+}
