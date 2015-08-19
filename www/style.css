@@ -13,6 +13,7 @@ body
 }
 
 .maincontent {
+	display: inline-block;
 	background-color: white;
 	width: 990px;
 }
