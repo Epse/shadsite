@@ -6,8 +6,7 @@ ul.hornavbar {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  align-self: center;
-  align-items: center;
+  display: inline-block;
 }
 
 a:link.hornavlink, a:visited.hornavlink {
