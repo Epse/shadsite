@@ -14,5 +14,5 @@ a.hornavlink {
 }
 
 li.hornavbar {
-  float: left;
+  display: inline;
 }
