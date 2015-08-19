@@ -7,11 +7,11 @@ ul.hornavbar {
   padding: 0;
 }
 
-/* a.hornavlink {
-    display: block;
+a.hornavlink {
+    /* display: block; */
     width: 60px;
-    text-align: center;
-} */
+    /* text-align: center; */
+}
 
 li.hornavbar {
   display: inline;
