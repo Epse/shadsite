@@ -8,6 +8,7 @@
 .footer{
   display: inline-block;
   background-color: white;
+  width: 120px;
 }
 
 ul.hornavbar {
