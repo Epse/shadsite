@@ -1,7 +1,7 @@
 /* CSS definition file containing site wide stylesheets */
 
 /* Vertical navbar! */
-.hornavbar {
+.hornavbar, .footer {
   display: inline-block;
 }
 

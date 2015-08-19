@@ -12,6 +12,10 @@ body
 	scrollbar-darkshadow-color : #000000
 }
 
+.centered {
+	text-align: center;
+}
+
 a:active
 {
 	color : rgb(255,0,0);
