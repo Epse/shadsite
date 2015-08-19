@@ -3,6 +3,7 @@
 /* Vertical navbar! */
 .hornavbar, .footer {
   display: inline-block;
+  background-color: white;
 }
 
 ul.hornavbar {
@@ -15,7 +16,7 @@ ul.hornavbar {
 a:link.hornavlink, a:visited.hornavlink {
     display: block;
     width: 120px;
-    color: rgb(255, 255, 255);
+    color: white;
     background-color: rgb(255, 0, 0);
     text-align: center;
     font-weight: bold;
@@ -39,5 +40,5 @@ li.hornavbar {
 #headertxt {
   font-size: 12px;
   font-weight: bold;
-  color: #ffffff;
+  color: white;
 }
