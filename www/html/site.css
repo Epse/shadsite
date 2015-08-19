@@ -5,19 +5,20 @@ ul.hornavbar {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
-a.hornavlink {
-    /* display: block; */
+a.hornavlink:link a.hornavlink:visited {
+    display: block;
     width: 60px;
     color: rgb(255, 255, 255);
     background-color: rgb(255, 0, 0);
-    /* text-align: center; */
+    text-align: center;
     font-weight: bold;
     text-decoration: none;
     padding: 4px;
 }
 
 li.hornavbar {
-  display: inline;
+  float: left;
 }
