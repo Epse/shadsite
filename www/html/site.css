@@ -3,13 +3,12 @@
 /* Vertical navbar! */
 ul.hornavbar {
   list-style-type: none;
-  align-self: center;
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
 
-a.hornavlink {
+a:link.hornavlink, a:visited.hornavlink {
     display: block;
     width: 120px;
     color: rgb(255, 255, 255);
@@ -18,6 +17,14 @@ a.hornavlink {
     font-weight: bold;
     text-decoration: none;
     padding: 4px;
+}
+
+a:hover.hornavlink {
+  background-color: #D90000;
+}
+
+a:active.hornavlink {
+  background-color: #CC0000;
 }
 
 li.hornavbar {
