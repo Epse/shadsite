@@ -1,12 +1,15 @@
 /* CSS definition file containing site wide stylesheets */
 
 /* Vertical navbar! */
+.hornavbar {
+  display: inline-block;
+}
+
 ul.hornavbar {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  display: inline-block;
 }
 
 a:link.hornavlink, a:visited.hornavlink {
