@@ -21,7 +21,7 @@
      <b>Niet gevonden wat U zoekt voor Uw eigen&nbsp;motor? </b><br>
      Geen probleem, dankzij onze jarenlange ervaring in de fabricage&nbsp;en constructie rond motorfietsen kunnen wij U mogelijks een oplossing&nbsp;aanreiken.
      <br>Contacteer ons !<span style="color: rgb(255,0,0);"> <a href="mailto:info@shad.be" class="moz-txt-link-abbreviated">info@shad.be</a></span>.
-   </div> ?>
+   </div>
    <!-- footer include -->
    <?php include 'include/footer.html'; ?>
   </div>
