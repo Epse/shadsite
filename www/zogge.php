@@ -85,22 +85,8 @@
        </td>
       </tr>
      </table>
-     <table border="0" cellspacing="0" cellpadding="0">
-      <tr valign="top" align="left">
-       <td width="960">
-        <table id="Table52" border="0" cellspacing="0" cellpadding="5" width="960" style="background-color: rgb(255,255,255); border-left-color:  rgb(255,255,255); border-left-style: solid; border-top-color:  rgb(255,255,255); border-top-style: solid; border-right-color:  rgb(255,255,255); border-right-style: solid; border-bottom-color:  rgb(255,255,255); border-bottom-style: solid; height: 22;">
-         <tr style="height: 13px;">
-          <td width="950">
-           <p style="text-align: center;">SHAD.BE</p>
-          </td>
-         </tr>
-        </table>
-       </td>
-      </tr>
-     </table>
-    </td>
-   </tr>
-  </table>
+     <!-- footer include -->
+     <?php include 'include/footer.html'; ?>
   </div>
  </body>
  </html>

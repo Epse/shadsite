@@ -53,24 +53,8 @@
       </td>
      </tr>
     </table>
-    <table border="0" cellspacing="0" cellpadding="0" width="960">
-     <tr valign="top" align="left">
-      <td height="150" width="960"><img id="Picture41" height="150" width="960" src="./assets/images/bottom_white_banner_sharp_klimop_-_boom.gif" border="0" alt="bottom white banner sharp klimop - boom" title="bottom white banner sharp klimop - boom"></td>
-     </tr>
-    </table>
-    <table border="0" cellspacing="0" cellpadding="0">
-     <tr valign="top" align="left">
-      <td width="960">
-       <table id="Table52" border="0" cellspacing="0" cellpadding="5" width="960" style="background-color: rgb(255,255,255); border-left-color:  rgb(255,255,255); border-left-style: solid; border-top-color:  rgb(255,255,255); border-top-style: solid; border-right-color:  rgb(255,255,255); border-right-style: solid; border-bottom-color:  rgb(255,255,255); border-bottom-style: solid; height: 22;">
-        <tr style="height: 13px;">
-         <td width="950">
-          <p style="text-align: center;"><b><span style="color: rgb(0,0,0);">HOME - NEDERLANDS - ENGLISH - FRANCAIS - CONTACT</span></b></p>
-         </td>
-        </tr>
-       </table>
-      </td>
-     </tr>
-    </table>
+    <!-- footer include -->
+    <?php include 'include/footer.html'; ?>
    </td>
   </tr>
  </table>

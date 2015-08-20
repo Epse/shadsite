@@ -28,11 +28,11 @@
           <p>Voor alle algemene vragen, contacteer ons via <a href="mailto:info@shad.be" target="_blank">info@shad.be.</a><br>U krijgt snel een antwoord.</p>
          </td>
          <td width="470">
-          <p>Si vous souhaitez acheter un produit de SHAD ou vous avec une question sp�cifique, contactez un dealer (vendeur) de votre choix.</p>
+          <p>Si vous souhaitez acheter un produit de SHAD ou vous avec une question sp&eacute;cifique, contactez un dealer (vendeur) de votre choix.</p>
           <ul>
            <li><a href="./dealers.html"><span style="color: rgb(255,0,0);">La liste des dealers.</span></a></li>
           </ul>
-          <p>Pour toute question g�n�rale, contactez-nous sur <a href="mailto:info@shad.be" target="_blank">info@shad.be.</a><br>Vous recevez une r�ponse rapidement.</p>
+          <p>Pour toute question g&eacute;n&eeacute;rale, contactez-nous sur <a href="mailto:info@shad.be" target="_blank">info@shad.be.</a><br>Vous recevez une r�ponse rapidement.</p>
          </td>
         </tr>
         <tr style="height: 285px;">
