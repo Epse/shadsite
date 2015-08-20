@@ -5,6 +5,10 @@
   display: inline-block;
 }
 
+.clearer {
+  clear:both;
+}
+
 .footer{
   display: inline-block;
   background-color: white;
