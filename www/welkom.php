@@ -11,7 +11,7 @@
 <body style="text-align: center; background-color: rgb(0,0,0); margin: 0px;">
  <div align="center">
    <!-- header include -->
-   <?php include './include/header.html';
+   <?php include './include/header.html'; ?>
    <div class="maincontent">
      <b>Welkom op de website van Shad&nbsp;en in de technische wereld van de bagageprodukten.</b><br><br>
      Wandel even door de mogelijkheden op gebied van topcases, koffersets,&nbsp;bagage en comfort.<br><br>
