@@ -5,8 +5,8 @@
 <title>Nederlands</title>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <meta name="Keywords" content="GSX-R world contest wereldrecord 2010 Hamme-Zogge Suzuki hayabusa Belgium">
-<script src="../scripts/interval_handle.js" type="text/javascript"></script>
-<script src="../scripts/rotating_picture.js" type="text/javascript"></script>
+<script src="./scripts/interval_handle.js" type="text/javascript"></script>
+<script src="./scripts/rotating_picture.js" type="text/javascript"></script>
 <link rel="stylesheet" type="text/css" href="./style.css">
 <link rel="stylesheet" type="text/css" href="./site.css">
 </head>
@@ -29,7 +29,7 @@
     </table>
     <table border="0" cellspacing="0" cellpadding="0" width="960">
      <tr valign="top" align="left">
-      <td height="150" width="960"><img id="Picture42" height="150" width="960" src="../assets/images/bottom_white_banner_sharp_klimop_-_boom.gif" border="0" alt="bottom white banner sharp klimop - boom" title="bottom white banner sharp klimop - boom"></td>
+      <td height="150" width="960"><img id="Picture42" height="150" width="960" src="./assets/images/bottom_white_banner_sharp_klimop_-_boom.gif" border="0" alt="bottom white banner sharp klimop - boom" title="bottom white banner sharp klimop - boom"></td>
      </tr>
     </table>
     <table border="0" cellspacing="0" cellpadding="0">

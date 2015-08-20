@@ -5,8 +5,8 @@
 <title>Contact</title>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <meta name="Keywords" content="GSX-R world contest wereldrecord 2010 Haamme-Zogge Suzuki hayabusa Belgium">
-<script src="../scripts/interval_handle.js" type="text/javascript"></script>
-<script src="../scripts/rotating_picture.js" type="text/javascript"></script>
+<script src="./scripts/interval_handle.js" type="text/javascript"></script>
+<script src="./scripts/rotating_picture.js" type="text/javascript"></script>
 
 <link rel="stylesheet" type="text/css" href="./style.css">
 <link rel="stylesheet" type="text/css" href="./site.css">
@@ -37,7 +37,7 @@
         </tr>
         <tr style="height: 285px;">
          <td colspan="2">
-          <p style="text-align: center;"><img id="Picture2" height="285" width="600" src="../assets/images/Shad-Style-the-new-range-of-premium-seats-Shad1.jpg" vspace="0" hspace="0" align="TOP" border="0" alt="Shad-Style-the-new-range-of-premium-seats-Shad1" title="Shad-Style-the-new-range-of-premium-seats-Shad1"></p>
+          <p style="text-align: center;"><img id="Picture2" height="285" width="600" src="./assets/images/Shad-Style-the-new-range-of-premium-seats-Shad1.jpg" vspace="0" hspace="0" align="TOP" border="0" alt="Shad-Style-the-new-range-of-premium-seats-Shad1" title="Shad-Style-the-new-range-of-premium-seats-Shad1"></p>
          </td>
         </tr>
        </table>

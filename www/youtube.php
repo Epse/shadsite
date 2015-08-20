@@ -5,8 +5,8 @@
 <title>YOUTUBE</title>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <meta name="Keywords" content="GSX-R world contest wereldrecord 2010 Hamme-Zogge Suzuki hayabusa Belgium">
-<script src="../scripts/interval_handle.js" type="text/javascript"></script>
-<script src="../scripts/rotating_picture.js" type="text/javascript"></script>
+<script src="./scripts/interval_handle.js" type="text/javascript"></script>
+<script src="./scripts/rotating_picture.js" type="text/javascript"></script>
 <link rel="stylesheet" type="text/css" href="./style.css">
 <link rel="stylesheet" type="text/css" href="./site.css">
 </head>

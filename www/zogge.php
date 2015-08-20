@@ -5,8 +5,8 @@
 <title>ZOGGE</title>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <meta name="Keywords" content="GSX-R world contest wereldrecord 2010 Hamme-Zogge Suzuki hayabusa Belgium">
-<script src="../scripts/interval_handle.js" type="text/javascript"></script>
-<script src="../scripts/rotating_picture.js" type="text/javascript"></script>
+<script src="./scripts/interval_handle.js" type="text/javascript"></script>
+<script src="./scripts/rotating_picture.js" type="text/javascript"></script>
 <link rel="stylesheet" type="text/css" href="./style.css">
 <link rel="stylesheet" type="text/css" href="./site.css">
 </head>
@@ -20,7 +20,7 @@
        <table id="Table50" border="0" cellspacing="0" cellpadding="5" width="960" style="background-color: rgb(255,255,255); height: 26;">
         <tr style="height: 1212px;">
          <td width="950" style="background-color: rgb(0,0,0);">
-          <p style="text-align: center;"><br><img id="Picture41" height="392" width="640" src="../assets/images/route1.jpg" vspace="0" hspace="0" align="TOP" border="0" alt="route1" title="route1"><br><br>
+          <p style="text-align: center;"><br><img id="Picture41" height="392" width="640" src="./assets/images/route1.jpg" vspace="0" hspace="0" align="TOP" border="0" alt="route1" title="route1"><br><br>
            <table width="100%" border="0" cellspacing="0" cellpadding="0">
             <tr>
              <td align="CENTER">
@@ -78,7 +78,7 @@
            <p><span style="color: rgb(255,255,255);">Afrit 13 op de E17 richting Waasmunster - aan de&nbsp;lichten rechtdoor richting Dendermonde - brug over de Durme hoofdbaan&nbsp;+/- 2km blijven volgen en u komt in het centrum van Hamme-Zogge.</span></p>
            <p><i><span style="color: rgb(255,255,255);">Vanuit van Brussel :</span></i></p>
            <p style="text-align: left;"><span style="color: rgb(255,255,255);">Op de ring rond Brussel afrit Boom/Grimbergen (A12) -&nbsp;in Willebroek richting Temse / St-Niklaas (N16) - Juist voorbij Temse de E17 nemen richting Gent - Afrit 13 richting Waasmunster - aan de&nbsp;lichten rechtdoor richting Dendermonde - brug over de Durme hoofdbaan&nbsp;+/- 2km blijven volgen en u komt in het centrum van Hamme-Zogge.</span></p>
-           <p style="text-align: center;"><img id="Picture42" height="536" width="765" src="../assets/images/route2.jpg" vspace="0" hspace="0" align="TOP" border="0" alt="route2" title="route2"><br><br><br></p>
+           <p style="text-align: center;"><img id="Picture42" height="536" width="765" src="./assets/images/route2.jpg" vspace="0" hspace="0" align="TOP" border="0" alt="route2" title="route2"><br><br><br></p>
           </td>
          </tr>
         </table>
