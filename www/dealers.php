@@ -4,16 +4,9 @@
 <head>
 <title>Dealers</title>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<meta name="Keywords" content="GSX-R world contest wereldrecord 2010 Ha�mme-Zogge Suzuki hayabusa Belgium">
-<meta name="Generator" content="NetObjects Fusion 10 for Windows">
-<script type="text/javascript">
-<!--
-function F_loadRollover(){} function F_roll(){}
-//-->
-</script>
-<SCRIPT TYPE="text/javascript" SRC="../assets/rollover.js"></SCRIPT>
-<link rel="stylesheet" type="text/css" href="../html/style.css">
-<link rel="stylesheet" type="text/css" href="../html/site.css">
+<meta name="Keywords" content="GSX-R world contest wereldrecord 2010 Hamme-Zogge Suzuki hayabusa Belgium">
+<link rel="stylesheet" type="text/css" href="./style.css">
+<link rel="stylesheet" type="text/css" href="./site.css">
 </head>
 <body style="text-align: center; background-color: rgb(0,0,0); margin: 0px;">
  <div align="center">
@@ -154,7 +147,7 @@ function F_loadRollover(){} function F_roll(){}
           <p><br><b>Momenteel werken wij volop aan de introductie van nieuwe verkooppunten.</b>&nbsp;<br><br>Regelmatig zal deze pagina aangepast worden. Schrijf U daarom zeker in op onze <span style="color: rgb(255,0,0);">nieuwsbrief</span>. Zo blijft U geinformeerd over de ontwikkelingen&nbsp;rond de SHAD produkten.<br>&nbsp;</p>
          </td>
          <td colspan="2" valign="top">
-          <p><b><br>Actuellement, on s&#8217;organise pour vous offrir des nouveaux points de vente.</b><br><br>Cette page sera mise � jour r�guli�rement. Inscrivez-vous pour notre <a href="../html/newsletter.html"><span style="color: rgb(255,0,0);">lettre d&#8217;information</span></a>. On vous tiendra au courant sur le d�veloppement des produits de SHAD.</p>
+          <p><b><br>Actuellement, on s&#8217;organise pour vous offrir des nouveaux points de vente.</b><br><br>Cette page sera mise � jour r�guli�rement. Inscrivez-vous pour notre <a href="./newsletter.html"><span style="color: rgb(255,0,0);">lettre d&#8217;information</span></a>. On vous tiendra au courant sur le d�veloppement des produits de SHAD.</p>
          </td>
         </tr>
        </table>

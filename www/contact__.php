@@ -4,16 +4,9 @@
 <head>
 <title>Contact !</title>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<meta name="Keywords" content="GSX-R world contest wereldrecord 2010 Ha�mme-Zogge Suzuki hayabusa Belgium">
-<meta name="Generator" content="NetObjects Fusion 10 for Windows">
-<script type="text/javascript">
-<!--
-function F_loadRollover(){} function F_roll(){}
-//-->
-</script>
-<SCRIPT TYPE="text/javascript" SRC="../assets/rollover.js"></SCRIPT>
-<link rel="stylesheet" type="text/css" href="../html/style.css">
-<link rel="stylesheet" type="text/css" href="../html/site.css">
+<meta name="Keywords" content="GSX-R world contest wereldrecord 2010 Hamme-Zogge Suzuki hayabusa Belgium">
+<link rel="stylesheet" type="text/css" href="./style.css">
+<link rel="stylesheet" type="text/css" href="./site.css">
 </head>
 <body style="text-align: center; background-color: rgb(0,0,0); margin: 0px;">
  <div align="center">
@@ -27,14 +20,14 @@ function F_loadRollover(){} function F_roll(){}
          <td width="470">
           <p><br><b>Indien u een product wil aankopen van SHAD of u heeft een specifieke vraag, contacteer aub uw lokale dealer. </b></p>
           <ul>
-           <li><a href="../html/dealers.html"><span style="color: rgb(255,0,0);">Lijst van de dealers.</span></a></li>
+           <li><a href="./dealers.html"><span style="color: rgb(255,0,0);">Lijst van de dealers.</span></a></li>
           </ul>
           <p>Voor alle algemene vragen, contacteer ons via <a href="mailto:info@shad.be" target="_blank"><span style="color: rgb(255,0,0);">info@shad.be.</span></a><br>U krijgt snel een antwoord.</p>
          </td>
          <td width="470">
           <p><b>Si vous souhaitez acheter un produit de SHAD ou vous avec une question sp�cifique, contactez un dealer (vendeur) de votre choix.</b></p>
           <ul>
-           <li><a href="../html/dealers.html"><span style="color: rgb(255,0,0);">La liste des dealers.</span></a></li>
+           <li><a href="./dealers.html"><span style="color: rgb(255,0,0);">La liste des dealers.</span></a></li>
           </ul>
           <p>Pour toute question g�n�rale, contactez-nous sur <a href="mailto:info@shad.be" target="_blank"><span style="color: rgb(255,0,0);">info@shad.be.</span></a><br>Vous recevez une r�ponse rapidement.</p>
          </td>

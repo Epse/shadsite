@@ -4,18 +4,11 @@
 <head>
 <title>English</title>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<meta name="Keywords" content="GSX-R world contest wereldrecord 2010 Ha�mme-Zogge Suzuki hayabusa Belgium">
-<meta name="Generator" content="NetObjects Fusion 10 for Windows">
+<meta name="Keywords" content="GSX-R world contest wereldrecord 2010 Hamme-Zogge Suzuki hayabusa Belgium">
 <script src="../scripts/interval_handle.js" type="text/javascript"></script>
 <script src="../scripts/rotating_picture.js" type="text/javascript"></script>
-<script type="text/javascript">
-<!--
-function F_loadRollover(){} function F_roll(){}
-//-->
-</script>
-<SCRIPT TYPE="text/javascript" SRC="../assets/rollover.js"></SCRIPT>
-<link rel="stylesheet" type="text/css" href="../html/style.css">
-<link rel="stylesheet" type="text/css" href="../html/site.css">
+<link rel="stylesheet" type="text/css" href="./style.css">
+<link rel="stylesheet" type="text/css" href="./site.css">
 </head>
 <body style="text-align: center; background-color: rgb(255,255,255); margin: 0px;">
  <div align="center">
@@ -30,7 +23,7 @@ function F_loadRollover(){} function F_roll(){}
           <p><b><span style="color: rgb(255,255,255);">WORLD CONTEST : May 23th 2010 = Suzuki GSX-R parade / counting.<br>Benifits go to the childrens fund &#8220;Tondeldoos&#8221; - Grembergen Dendermonde.</span></b></p>
           <p><b><span style="color: rgb(255,255,255);">Online = VIP subscription + 25th Aniversary CARD :</span></b></p>
           <ul>
-           <li><span style="color: rgb(255,255,255);">VIP parking in <a href="../html/leeg.html">Hamme-Zogge</a></span></li>
+           <li><span style="color: rgb(255,255,255);">VIP parking in <a href="./leeg.html">Hamme-Zogge</a></span></li>
            <li><span style="color: rgb(255,255,255);">Coffee + a bite.</span></li>
            <li><span style="color: rgb(255,255,255);">A professional picture of you and your bike (from 15h at the end of the parade).</span></li>
            <li><span style="color: rgb(255,255,255);">A souvenir from <a href="http://www.suzuki.be" target="_blank">Suzuki Belgium</a>.</span></li>
@@ -40,8 +33,8 @@ function F_loadRollover(){} function F_roll(){}
            <li><span style="color: rgb(255,255,255);">5 &#8364; reduction via <a href="http://www.motorrijder.be" target="_blank">Motorrijder</a> to race on a circuit. Dates on their website.</span></li>
            <li><span style="color: rgb(255,255,255);">A juicy hamburger after the parade on the grounds of <a href="http://www.bikeparts.be" target="_blank">motorshop Bike Parts</a>.</span></li>
           </ul>
-          <p><span style="color: rgb(255,255,255);">GSX-R VIP-subscription ONLY THROUGH THIS WEBSITE : 25 &#8364; (The VIP-arrangement can largely compensate the subscription costs!) before may 15th.<br>Duo VIP if VIP subscription by the rider ONLY THROUGH THIS WEBSITE :&nbsp;5 &#8364; included VIP arrangement in <a href="../html/leeg.html">Hamme-Zogge</a> &amp; a hamburger at motorshop Bike Parts.<br><br><span style="color: rgb(255,0,0);">Subscribe</span> <a href="../html/contact.html">using this form</a>.</span></p>
-          <p><span style="color: rgb(255,255,255);"><b>Subscribe the day of the event / at the event :</b><br><br>GSX-R worldrecord participation (no VIP arrangement) : 10 &#8364; incl 2 drinks + memory. <br><br>Subscription from 8u30 till 11u00 in the community hall at <a href="../html/leeg.html">Hamme-Zogge</a>, located in <a href="../html/leeg.html">Neerlandt at Hamme-Zogge</a>.<br>(Same location as the Zogrally, Massstart,...)</span></p>
+          <p><span style="color: rgb(255,255,255);">GSX-R VIP-subscription ONLY THROUGH THIS WEBSITE : 25 &#8364; (The VIP-arrangement can largely compensate the subscription costs!) before may 15th.<br>Duo VIP if VIP subscription by the rider ONLY THROUGH THIS WEBSITE :&nbsp;5 &#8364; included VIP arrangement in <a href="./leeg.html">Hamme-Zogge</a> &amp; a hamburger at motorshop Bike Parts.<br><br><span style="color: rgb(255,0,0);">Subscribe</span> <a href="./contact.html">using this form</a>.</span></p>
+          <p><span style="color: rgb(255,255,255);"><b>Subscribe the day of the event / at the event :</b><br><br>GSX-R worldrecord participation (no VIP arrangement) : 10 &#8364; incl 2 drinks + memory. <br><br>Subscription from 8u30 till 11u00 in the community hall at <a href="./leeg.html">Hamme-Zogge</a>, located in <a href="./leeg.html">Neerlandt at Hamme-Zogge</a>.<br>(Same location as the Zogrally, Massstart,...)</span></p>
           <p><b><span style="color: rgb(255,255,255);">The parade starts at 12u SHARP!!!</span></b></p>
           <p><span style="color: rgb(255,255,255);">Other activities : </span></p>
           <ul>

@@ -4,18 +4,11 @@
 <head>
 <title>YOUTUBE</title>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<meta name="Keywords" content="GSX-R world contest wereldrecord 2010 Ha�mme-Zogge Suzuki hayabusa Belgium">
-<meta name="Generator" content="NetObjects Fusion 10 for Windows">
+<meta name="Keywords" content="GSX-R world contest wereldrecord 2010 Hamme-Zogge Suzuki hayabusa Belgium">
 <script src="../scripts/interval_handle.js" type="text/javascript"></script>
 <script src="../scripts/rotating_picture.js" type="text/javascript"></script>
-<script type="text/javascript">
-<!--
-function F_loadRollover(){} function F_roll(){}
-//-->
-</script>
-<SCRIPT TYPE="text/javascript" SRC="../assets/rollover.js"></SCRIPT>
-<link rel="stylesheet" type="text/css" href="../html/style.css">
-<link rel="stylesheet" type="text/css" href="../html/site.css">
+<link rel="stylesheet" type="text/css" href="./style.css">
+<link rel="stylesheet" type="text/css" href="./site.css">
 </head>
 <body style="text-align: center; margin: 0px;">
  <div align="center">

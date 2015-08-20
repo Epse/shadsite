@@ -4,18 +4,11 @@
 <head>
 <title>Fran�ais</title>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<meta name="Keywords" content="GSX-R world contest wereldrecord 2010 Ha�mme-Zogge Suzuki hayabusa Belgium">
-<meta name="Generator" content="NetObjects Fusion 10 for Windows">
+<meta name="Keywords" content="GSX-R world contest wereldrecord 2010 Hamme-Zogge Suzuki hayabusa Belgium">
 <script src="../scripts/interval_handle.js" type="text/javascript"></script>
 <script src="../scripts/rotating_picture.js" type="text/javascript"></script>
-<script type="text/javascript">
-<!--
-function F_loadRollover(){} function F_roll(){}
-//-->
-</script>
-<SCRIPT TYPE="text/javascript" SRC="../assets/rollover.js"></SCRIPT>
-<link rel="stylesheet" type="text/css" href="../html/style.css">
-<link rel="stylesheet" type="text/css" href="../html/site.css">
+<link rel="stylesheet" type="text/css" href="./style.css">
+<link rel="stylesheet" type="text/css" href="./site.css">
 </head>
 <body style="text-align: center; background-color: rgb(255,255,255); margin: 0px;">
  <div align="center">
@@ -30,7 +23,7 @@ function F_loadRollover(){} function F_roll(){}
           <p><b><span style="color: rgb(255,255,255);">TEMPTATIVE POUR BATTRE LE RECORD MONDIALE : 23 mai 2010 = La plus longue parade de Suzuki GSX-R.<br>Le benifice est pour le fonds pour enfants &#8220;Tondeldoos&#8221; � Grembergen Termonde.</span></b></p>
           <p><b><span style="color: rgb(255,255,255);">En ligne = subscription VIP + carte 25i�me aniversaire / avantages :</span></b></p>
           <ul>
-           <li><span style="color: rgb(255,255,255);">Parking VIP � <a href="../html/leeg.html">Hamme-Zogge</a></span></li>
+           <li><span style="color: rgb(255,255,255);">Parking VIP � <a href="./leeg.html">Hamme-Zogge</a></span></li>
            <li><span style="color: rgb(255,255,255);">Caf� + grignottage.</span></li>
            <li><span style="color: rgb(255,255,255);">Un photo professionel de vous et votre moto (d�s 15h � la fin du parade).</span></li>
            <li><span style="color: rgb(255,255,255);">Un souvenir de <a href="http://www.suzuki.be" target="_blank">Suzuki Belgium</a></span></li>
@@ -40,8 +33,8 @@ function F_loadRollover(){} function F_roll(){}
            <li><span style="color: rgb(255,255,255);">5 &#8364; de reduction par <a href="http://www.motorrijder.be" target="_blank">Motorrijder</a> pour rouler sur un circuit. (Voir leurs site).</span></li>
            <li><span style="color: rgb(255,255,255);">Un hamburger sur le terrain de Bike Parts apr�s la parade.</span></li>
           </ul>
-          <p><span style="color: rgb(255,255,255);">Subscription GSX-R VIP seulement par le site : 25 &#8364; (L&#8217;arrangement VIP peut largement compenser le prix de l&#8217;inscription.) avant 15 mai.<br>Duo VIP :&nbsp;5 &#8364; inclus arrangement VIP � <a href="../html/leeg.html">Hamme-Zogge</a> &amp; un hamburger.<br><br><span style="color: rgb(255,0,0);">Inscrivez-vous </span><a href="../html/contact.html">par ce formulier</a>.</span></p>
-          <p><span style="color: rgb(255,255,255);"><b>Subscribtion le jour de l&#8217;�v�nement / sur le site :</b><br><br>GSX-R participant (pas d&#8217;arrangement VIP) : 10 &#8364; incl 2 boissons + souvenir. <br><br>Inscription de 8h30 � 11h00 � <a href="../html/leeg.html">Neerlandt at Hamme-Zogge</a>.<br>(M�me location que la Zogrally, Massstart,...)</span></p>
+          <p><span style="color: rgb(255,255,255);">Subscription GSX-R VIP seulement par le site : 25 &#8364; (L&#8217;arrangement VIP peut largement compenser le prix de l&#8217;inscription.) avant 15 mai.<br>Duo VIP :&nbsp;5 &#8364; inclus arrangement VIP � <a href="./leeg.html">Hamme-Zogge</a> &amp; un hamburger.<br><br><span style="color: rgb(255,0,0);">Inscrivez-vous </span><a href="./contact.html">par ce formulier</a>.</span></p>
+          <p><span style="color: rgb(255,255,255);"><b>Subscribtion le jour de l&#8217;�v�nement / sur le site :</b><br><br>GSX-R participant (pas d&#8217;arrangement VIP) : 10 &#8364; incl 2 boissons + souvenir. <br><br>Inscription de 8h30 � 11h00 � <a href="./leeg.html">Neerlandt at Hamme-Zogge</a>.<br>(M�me location que la Zogrally, Massstart,...)</span></p>
           <p><b><span style="color: rgb(255,255,255);">Le parade d�marre �&nbsp;12h00 pil !!!</span></b></p>
           <p><span style="color: rgb(255,255,255);">Autres activit�s : </span></p>
           <ul>
