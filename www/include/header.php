@@ -1,6 +1,6 @@
 <div class="panel" style="margin-top: 20px;">
   <div class="panel-body">
-  <p id="headertxt">SHAD Belgium : cases - seats - luggage : <a href="mailto:info@shad.be" target="_blank">info@shad.be</a></p>
+  <h6 class="text-center">SHAD Belgium : cases - seats - luggage : <a href="mailto:info@shad.be" target="_blank">info@shad.be</a></h6>
   <img src="../logo.jpg" alt="logo" usemap="#headermap" class="center-block">
 </div>
 </div>
