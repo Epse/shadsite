@@ -11,7 +11,7 @@
 <body style="text-align: center; background-color: rgb(0,0,0); margin: 0px;">
  <div align="center">
    <!-- header include -->
-   <?php include './include/header.html'; ?>
+   <?php include './include/header.php'; ?>
     <table border="0" cellspacing="0" cellpadding="0">
      <tr valign="top" align="left">
       <td width="960">
@@ -34,7 +34,7 @@
      </tr>
     </table>
     <!-- footer include -->
-    <?php include 'include/footer.html'; ?>
+    <?php include 'include/footer.php'; ?>
     </td>
    </tr>
   </table>

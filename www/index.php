@@ -14,19 +14,19 @@
   </head>
   <body style="text-align: center; background-color: rgb(0,0,0); background-image: none; margin: 0px;">
     <!-- header include -->
-    <?php include 'include/header.html'; ?>
+    <?php include 'include/header.php'; ?>
     <div class="maincontent">
       <p>
         SHAD Benelux verdeelt het volledige aanbod van SHAD internationaal. SHAD is fabrikant van koffers, tassen, zadels en accessoires van superieure kwaliteit.<br><br>
-        Meer informatie in het <a href="./html/welkom.html">Nederlands</a>.
+        Meer informatie in het <a href="./html/welkom.php">Nederlands</a>.
       </p>
       <p>
         SHAD Benelux distribue tout les produits de SHAD international. SHAD est fabricant de coffres, sacs, selles et accessoires de qualit&eacute; sup&eacute;rieure.<br><br>
-        Plus d&#8217;information <a href="./html/bienvenu.html">en fran&ccedil;ais</a>
+        Plus d&#8217;information <a href="./html/bienvenu.php">en fran&ccedil;ais</a>
       </p>
       <img id="Picture4" height="200" width="800" src="./assets/images/SHAD_Sportrack_boven___onder_800.png" border="0" alt="SHAD Sportrack boven &amp; onder 800" title="SHAD Sportrack boven &amp; onder 800">
     </div>
     <!-- footer include -->
-    <?php include 'include/footer.html'; ?>
+    <?php include 'include/footer.php'; ?>
    </body>
  </html>

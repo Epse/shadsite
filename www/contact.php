@@ -14,7 +14,7 @@
 <body style="text-align: center; background-color: rgb(0,0,0); margin: 0px;">
  <div align="center">
 <!-- header include -->
-<?php include './include/header.html'; ?>
+<?php include './include/header.php'; ?>
     <table border="0" cellspacing="0" cellpadding="0">
      <tr valign="top" align="left">
       <td width="960">
@@ -23,14 +23,14 @@
          <td width="470">
           <p>Indien u een product wil aankopen van SHAD of u heeft een specifieke vraag, contacteer aub uw lokale dealer. </p>
           <ul>
-           <li><a href="./dealers.html">Lijst van de dealers.</a></li>
+           <li><a href="./dealers.php">Lijst van de dealers.</a></li>
           </ul>
           <p>Voor alle algemene vragen, contacteer ons via <a href="mailto:info@shad.be" target="_blank">info@shad.be.</a><br>U krijgt snel een antwoord.</p>
          </td>
          <td width="470">
           <p>Si vous souhaitez acheter un produit de SHAD ou vous avec une question sp&eacute;cifique, contactez un dealer (vendeur) de votre choix.</p>
           <ul>
-           <li><a href="./dealers.html"><span style="color: rgb(255,0,0);">La liste des dealers.</span></a></li>
+           <li><a href="./dealers.php"><span style="color: rgb(255,0,0);">La liste des dealers.</span></a></li>
           </ul>
           <p>Pour toute question g&eacute;n&eeacute;rale, contactez-nous sur <a href="mailto:info@shad.be" target="_blank">info@shad.be.</a><br>Vous recevez une r�ponse rapidement.</p>
          </td>
