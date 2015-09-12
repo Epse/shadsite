@@ -1,6 +1,9 @@
-<div class="hornavbar">
+<div class="panel">
+  <div class="panel-body">
   <p id="headertxt">SHAD Belgium : cases - seats - luggage : <a href="mailt:info@shad.be" target="_blank">info@shad.be</a></p>
   <img src="../logo.jpg" alt="logo" usemap="#headermap">
+</div>
+</div>
   <map name="headermap">
     <area shape="rect" coords="844,0,990,175" href="http://www.shad.es/getCatalogue.php">
   </map>
@@ -83,4 +86,3 @@
       </div>
     </nav>
   </div>
-</div>
