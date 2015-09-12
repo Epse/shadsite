@@ -66,7 +66,7 @@
             ?>
             <li><a href="http://www.bike-design.com/nl/categorie/145020/bagage-shad" target="_blank">Bestel Nu!</a></li>
             <?php
-              if ($_SERVER['PHP_SELF'] == '/index.php') {
+              if ($_SERVER['PHP_SELF'] == '/newsletter.php') {
                 echo '<li class="active"><a href="#">Nieuwsbrief</a></li>';
               }
               else {
