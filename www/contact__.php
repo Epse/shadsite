@@ -38,7 +38,7 @@
               <b>Si vous souhaitez acheter un produit de SHAD ou vous avec une question sp&eacute;cifique, contactez un dealer (vendeur) de votre choix.</b>
               <a href="./dealers.php">La liste des dealers.</a></li>
             </p>
-            <p>Pour toute questions g&eacute;n&eacute;rales, contactez-nous sur <a href="mailto:info@shad.be" target="_blank">info@shad.be.</a>
+            <p>Pour toutes questions g&eacute;n&eacute;rales, contactez-nous sur <a href="mailto:info@shad.be" target="_blank">info@shad.be.</a>
               <br>Vous recevez une r&eacute;ponse rapidement.</p>
           </div>
         </div>

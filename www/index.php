@@ -37,7 +37,7 @@
                     <br>Ervaar dat de producten van SHAD van de beste kwaliteit zijn, met een waaier van toepassingen .
                   </p>
                   <p>
-                    Schrijf U in op onze <a href="./newsletter.php">newsletter</a> en wordt regelmatig op de hoogte gehouden van nieuwe verkooppunten, de allernieuwste producten, trends en evoluties.
+                    Schrijf U in op onze <a href="./newsletter.php">neiuwsbrief</a> en wordt regelmatig op de hoogte gehouden van nieuwe verkooppunten, de allernieuwste producten, trends en evoluties.
                   </p>
                   <p>
                     <b>Niet gevonden wat U zoekt voor Uw eigen motor? </b><br>
