@@ -42,7 +42,7 @@
                   <p>
                     <b>Niet gevonden wat U zoekt voor Uw eigen motor? </b><br>
                     Geen probleem, dankzij onze jarenlange ervaring in de fabricage en constructie rond motorfietsen kunnen wij U mogelijks een oplossing aanreiken.
-                    <br>Contacteer ons !<a href="mailto:info@shad.be">info@shad.be</a>.
+                    <br>Contacteer ons! <a href="mailto:info@shad.be">info@shad.be</a>.
                   </p>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
@@ -61,7 +61,7 @@
                   <p>
                     <b>Pas trouv&eacute; ce que vous cherchez pour votre propre moto?</b><br>
                     Pas de probl&egrave;me. Avec notre exp&eacute;rience de longues ann&eacute;es dans le fabricage et construction autour des motos, on peut vous offrir une solution.
-                    <br>Contactez-nous!<a href="mailto:info@shad.be">info@shad.be</a>
+                    <br>Contactez-nous! <a href="mailto:info@shad.be">info@shad.be</a>
                   </p>
                 </div>
               </div>
