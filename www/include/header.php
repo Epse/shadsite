@@ -1,7 +1,15 @@
+<script src="./jquery.rwdImageMaps.min.js"></script>
+<script>
+$(document).ready(function(e) {
+    $('img[usemap]').rwdImageMaps();
+});
+</script>
+<div class="row">
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 <div class="panel" style="margin-top: 20px;">
   <div class="panel-body">
   <h6 class="text-center">SHAD Belgium : cases - seats - luggage : <a href="mailto:info@shad.be" target="_blank">info@shad.be</a></h6>
-  <img src="../logo.jpg" alt="logo" usemap="#headermap" class="center-block">
+  <img src="../logo.jpg" alt="logo" usemap="#headermap" class="img-responsive center-block">
 </div>
 </div>
   <map name="headermap">
@@ -86,3 +94,6 @@
       </div>
     </nav>
   </div>
+</div>
+</div>
+</div>
