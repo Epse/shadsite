@@ -44,7 +44,7 @@
         </div>
         <div class="row">
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <img class="center-block" height="285" width="600" src="./assets/images/Shad-Style-the-new-range-of-premium-seats-Shad1.jpg"alt="Shad-Style-the-new-range-of-premium-seats-Shad1" title="Shad-Style-the-new-range-of-premium-seats-Shad1">
+            <img class="img-responsive center-block" src="./assets/images/Shad-Style-the-new-range-of-premium-seats-Shad1.jpg"alt="Shad-Style-the-new-range-of-premium-seats-Shad1" title="Shad-Style-the-new-range-of-premium-seats-Shad1">
           </div>
         </div>
       </div>
