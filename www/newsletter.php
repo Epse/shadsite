@@ -24,13 +24,13 @@
              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                <p>
                  <b>Wil je graag op de hoogte blijven van de SHAD nieuwigheden en acties, schrijf je dan in op onze nieuwsbrief. </b>
-                 Het volstaat om een mail te sturen naar<a href="mailto:info@shad.be" target="_blank">info@shad.be</a> met de vraag om de nieuwsbrief te ontvangen. Je mailadres wordt bewaard en opgeslagen bij SHAD Belgi&euml; en niet doorgegeven aan externe partners. U wordt occasioneel op de hoogte gehouden van aanbiedingen en volgende activiteiten van Shad Belgi&euml;.
+                 <br>Het volstaat om een mail te sturen naar<a href="mailto:info@shad.be" target="_blank">info@shad.be</a> met de vraag om de nieuwsbrief te ontvangen. Je mailadres wordt bewaard en opgeslagen bij SHAD Belgi&euml; en niet doorgegeven aan externe partners. U wordt occasioneel op de hoogte gehouden van aanbiedingen en volgende activiteiten van Shad Belgi&euml;.
                </p>
              </div>
              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                <p>
-                 <b>Si vous souhaitez rester au courant de nous nouvauxt&eacute;s et actions, inscrivez-vous pour recevoir une lettre d&#39;;information par mail. </b>
-                 Cela suffit d&#39;;envoyer un mail &agrave; <a href="mailto:info@shad.be" target="_blank">info@shad.be</a> avec la demande de recevoir le lettre d&#39;;information. Votre adresse mail sera conserv&eacute; chez SHAD Belgique et ne sara pas distribu&eacute; &agrave; des tiers. On vous tiendra au courant de fa&ccedil;on occasionnel des nos offres et activit&eacute;s.
+                 <b>Si vous souhaitez rester au courant de nous nouvauxt&eacute;s et actions, inscrivez-vous pour recevoir une lettre d&#39;information par mail. </b>
+                 <br>Cela suffit d&#39;;envoyer un mail &agrave; <a href="mailto:info@shad.be" target="_blank">info@shad.be</a> avec la demande de recevoir le lettre d&#39;;information. Votre adresse mail sera conserv&eacute; chez SHAD Belgique et ne sara pas distribu&eacute; &agrave; des tiers. On vous tiendra au courant de fa&ccedil;on occasionnel des nos offres et activit&eacute;s.
                </p>
              </div>
            </div>
