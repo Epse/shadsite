@@ -3,7 +3,8 @@
 <html>
 <head>
 <title>Products</title>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Bootstrap - simplex theme -->
 <link href="./bootstrapshad.css" rel="stylesheet">
 <!-- jQuery library -->
