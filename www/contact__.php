@@ -1,52 +1,56 @@
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!DOCTYPE html>
 <html>
 <head>
-<title>Contact !</title>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<meta name="Keywords" content="GSX-R world contest wereldrecord 2010 Hamme-Zogge Suzuki hayabusa Belgium">
-<link rel="stylesheet" type="text/css" href="./style.css">
-<link rel="stylesheet" type="text/css" href="./site.css">
+<title>Contact</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <!-- Bootstrap - simplex theme -->
-<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/simplex/bootstrap.min.css" rel="stylesheet" integrity="sha256-4nVETqQoIoCwuephcXpJ501G8B5sgBHb1ZsKU/D476I= sha512-cfSmkkLRDAcUNaJxRRWopCyEGX43UkWCAOl2wErYMBGOQVWwOsZ7IFuXScF9H/6nMGbmsgV4m5/xYfesyvHTxw==" crossorigin="anonymous">
+<link href="./bootstrapshad.css" rel="stylesheet">
 <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <!-- Latest compiled JavaScript -->
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </head>
-<body style="text-align: center; background-color: rgb(0,0,0); margin: 0px;">
- <div align="center">
+<body>
+ <div class="container">
 <!-- header include -->
 <?php include './include/header.php'; ?>
-    <table border="0" cellspacing="0" cellpadding="0">
-     <tr valign="top" align="left">
-      <td width="960">
-       <table id="Table53" border="0" cellspacing="0" cellpadding="5" width="100%" style="background-color: rgb(255,255,255); height: 32;">
-        <tr style="height: 116px;">
-         <td width="470">
-          <p><br><b>Indien u een product wil aankopen van SHAD of u heeft een specifieke vraag, contacteer aub uw lokale dealer. </b></p>
-          <ul>
-           <li><a href="./dealers.php"><span style="color: rgb(255,0,0);">Lijst van de dealers.</span></a></li>
-          </ul>
-          <p>Voor alle algemene vragen, contacteer ons via <a href="mailto:info@shad.be" target="_blank"><span style="color: rgb(255,0,0);">info@shad.be.</span></a><br>U krijgt snel een antwoord.</p>
-         </td>
-         <td width="470">
-          <p><b>Si vous souhaitez acheter un produit de SHAD ou vous avec une question sp&eacute;cifique, contactez un dealer (vendeur) de votre choix.</b></p>
-          <ul>
-           <li><a href="./dealers.php"><span style="color: rgb(255,0,0);">La liste des dealers.</span></a></li>
-          </ul>
-          <p>Pour toute question g&eacute;n&eacute;rale, contactez-nous sur <a href="mailto:info@shad.be" target="_blank"><span style="color: rgb(255,0,0);">info@shad.be.</span></a><br>Vous recevez une r&eacute;ponse rapidement.</p>
-         </td>
-        </tr>
-        <tr style="height: 285px;">
-         <td colspan="2">
-          <p style="text-align: center;"><img id="Picture2" height="285" width="600" src="./assets/images/Shad-Style-the-new-range-of-premium-seats-Shad1.jpg" vspace="0" hspace="0" align="TOP" border="0" alt="Shad-Style-the-new-range-of-premium-seats-Shad1" title="Shad-Style-the-new-range-of-premium-seats-Shad1"></p>
-         </td>
-        </tr>
-       </table>
-      </td>
-     </tr>
-    </table>
+<div class="row">
+  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <div class="panel">
+      <div class="panel-body">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <p>
+              <b>Indien u een product wil aankopen van SHAD of u heeft een specifieke vraag, contacteer aub uw lokale dealer. </b>
+              <a href="./dealers.php">Lijst van de dealers.</a>
+            </p>
+            <p>
+              Voor alle algemene vragen, contacteer ons via <a href="mailto:info@shad.be" target="_blank">info@shad.be.</a>
+              <br>U krijgt snel een antwoord.
+            </p>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <p>
+              <b>Si vous souhaitez acheter un produit de SHAD ou vous avec une question sp&eacute;cifique, contactez un dealer (vendeur) de votre choix.</b>
+              <a href="./dealers.php">La liste des dealers.</a></li>
+            </p>
+            <p>Pour toute questions g&eacute;n&eacute;rales, contactez-nous sur <a href="mailto:info@shad.be" target="_blank">info@shad.be.</a>
+              <br>Vous recevez une r&eacute;ponse rapidement.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <img class="center-block" height="285" width="600" src="./assets/images/Shad-Style-the-new-range-of-premium-seats-Shad1.jpg"alt="Shad-Style-the-new-range-of-premium-seats-Shad1" title="Shad-Style-the-new-range-of-premium-seats-Shad1">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
     <!-- footer include -->
     <?php include 'include/footer.php'; ?>
   </div>
