@@ -18,35 +18,60 @@
   </head>
   <body>
     <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
       <!-- header include -->
       <?php include 'include/header.php'; ?>
-        </div>
-      </div>
       <div class="row">
         <div class="col-lg-12">
           <div class="panel">
             <div class="panel-body">
-      <p>
-        SHAD Benelux verdeelt het volledige aanbod van SHAD internationaal. SHAD is fabrikant van koffers, tassen, zadels en accessoires van superieure kwaliteit.<br><br>
-        Meer informatie in het <a href="./html/welkom.php">Nederlands</a>.
-      </p>
-      <p>
-        SHAD Benelux distribue tout les produits de SHAD international. SHAD est fabricant de coffres, sacs, selles et accessoires de qualit&eacute; sup&eacute;rieure.<br><br>
-        Plus d&#8217;information <a href="./html/bienvenu.php">en fran&ccedil;ais</a>
-      </p>
-      <img id="Picture4" height="200" width="800" src="./assets/images/SHAD_Sportrack_boven___onder_800.png" border="0" alt="SHAD Sportrack boven &amp; onder 800" title="SHAD Sportrack boven &amp; onder 800">
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                  <p>
+                    <b>Welkom op de website van Shad en in de technische wereld van de bagageproducten.</b>
+                  </p>
+                  <p>
+                    Wandel even door de mogelijkheden op gebied van topcases, koffersets, bagage en comfort.
+                  </p>
+                  <p>
+                    U zal versteld staan welke oplossingen wij aanreiken voor Uw transportbehoeften in de snel veranderende mobiliteitsomgeving.
+                    <br>Ervaar dat de producten van SHAD van de beste kwaliteit zijn, met een waaier van toepassingen .
+                  </p>
+                  <p>
+                    Schrijf U in op onze <a href="./newsletter.php">newsletter</a> en wordt regelmatig op de hoogte gehouden van nieuwe verkooppunten , de allernieuwste producten , trends en evoluties.
+                  </p>
+                  <p>
+                    <b>Niet gevonden wat U zoekt voor Uw eigen motor? </b><br>
+                    Geen probleem, dankzij onze jarenlange ervaring in de fabricage en constructie rond motorfietsen kunnen wij U mogelijks een oplossing aanreiken.
+                    <br>Contacteer ons !<a href="mailto:info@shad.be">info@shad.be</a>.
+                  </p>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                  <p>
+                    <b>Soyez bienvenu sur le site de Shad et dans le monde technique des produits de bagage.</b>
+                  </p>
+                  <p>
+                    Considerez nos solutions dans le domaine des topcases, coffres, bagage en confort.
+                  </p>
+                  <p>
+                    Etonnez-vous de ce qu&#39;on peut vous offrir pour vos besoins de transport dans ce monde qui chage rapidement au niveau de la mobilit&eacute;. Experiencez les produits de SHAD. la meilleur qualit&eacute; avec nombreuses d&#39;options et applications.
+                  </p>
+                  <p>
+                    Inscrivez-vous pour notre <a href="./html/newsletter.php">lettre d&#39;information</a> et restez au courant de nos nouveaux points de vente, nouveaux produits, trends et evolution.
+                  </p>
+                  <p>
+                    <b>Pas trouv&eacute; ce que vous cherchez pour votre propre moto?</b><br>
+                    Pas de probl&egrave;me. Avec notre exp&eacute;rience de longues ann&eacute;es dans le fabricage et construction autour des motos, on peut vous offrir une solution.
+                    <br>Contactez-nous!<a href="mailto:info@shad.be">info@shad.be</a>
+                  </p>
+                </div>
+              </div>
+              <img class="img-responsive center-block"src="./assets/images/SHAD_Sportrack_boven___onder_800.png"alt="SHAD Sportrack boven &amp; onder 800" title="SHAD Sportrack boven &amp; onder 800">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer include -->
+      <?php include 'include/footer.php'; ?>
     </div>
-  </div>
-  </div>
-  </div>
-  <div class="row">
-    <div class="col-lg-12">
-    <!-- footer include -->
-    <?php include 'include/footer.php'; ?>
-  </div>
-</div>
-    </div>
-   </body>
- </html>
+  </body>
+</html>

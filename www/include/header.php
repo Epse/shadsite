@@ -41,22 +41,6 @@ $(document).ready(function(e) {
               }
             ?>
             <?php
-              if ($_SERVER['PHP_SELF'] == '/welkom.php') {
-                echo '<li class="active"><a href="#">Home</a></li>';
-              }
-              else {
-                echo '<li><a href="./welkom.php">Welkom</a></li>';
-              }
-            ?>
-            <?php
-              if ($_SERVER['PHP_SELF'] == '/bienvenue.php') {
-                echo '<li class="active"><a href="#">Bienvenue</a></li>';
-              }
-              else {
-                echo '<li><a href="./bienvenue.php">Bienvenue</a></li>';
-              }
-            ?>
-            <?php
               if ($_SERVER['PHP_SELF'] == '/products.php') {
                 echo '<li class="active"><a href="#">Producten</a></li>';
               }
