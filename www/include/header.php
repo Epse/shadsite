@@ -13,7 +13,7 @@ $(document).ready(function(e) {
 </div>
 </div>
   <map name="headermap">
-    <area shape="rect" coords="844,0,990,175" href="http://www.shad.es/getCatalogue.php">
+    <area shape="rect" coords="844,0,990,175" href="http://www.motorcyclepartsnetwork.co.uk/wholesale/aftermarket/catalogo-shad-2015.pdf">
   </map>
   <div class="row">
     <div class="col-lg-12 col-sm-12 col-xs-12 col-md-12">
