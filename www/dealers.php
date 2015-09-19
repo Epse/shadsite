@@ -357,7 +357,7 @@
                 }
             }
             elseif (isset($_GET['provincie']) && $_GET['provincie']!="") {
-                if ($_GET['provincie'] == "Oost-Vlaanderen") {
+                if ($_GET['provincie'] == "Oost-Vlaanderen" || $_GET['provincie']=="Flandre Orientale") {
                   // Dealers voor Oost-Vlaanderen
                   echo '<div class=row>
                   <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
@@ -430,7 +430,7 @@
                   </div>
                   </div>';
                 }
-                elseif ($_GET['provincie'] == "West-Vlaanderen") {
+                elseif ($_GET['provincie'] == "West-Vlaanderen" || $_GET['provincie']=="Flandre Occidentale") {
                   // Dealers voor Wes-Vlaanderen
                   echo '<div class=row>
                   <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
@@ -480,7 +480,7 @@
                   </div>
                   </div>';
                 }
-                elseif ($_GET['provincie'] == "Antwerpen") {
+                elseif ($_GET['provincie'] == "Antwerpen" || $_GET['provincie']=="Anvers") {
                   // Dealers voor Antwerpen
                   echo '<div class="row">
                   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -493,7 +493,7 @@
                   </div>
                   </div>';
                 }
-                elseif ($_GET['provincie'] == "Limburg") {
+                elseif ($_GET['provincie'] == "Limburg"||$_GET['provincie']=="Limbourg") {
                   // Dealers voor Limburg
                   echo '<div class="row">
                   <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
@@ -534,7 +534,7 @@
                   </div>
                   </div>';
                 }
-                elseif ($_GET['provincie'] == "Vlaams-Brabant") {
+                elseif ($_GET['provincie'] == "Vlaams-Brabant" || $_GET['provincie']=="Brabant flamand") {
                   // Dealers voor Vlaams-Brabant
                   echo '<div class=row>
                   <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
@@ -584,7 +584,7 @@
                   </div>
                   </div>';
                 }
-                elseif ($_GET['provincie'] == "Waals-Brabant") {
+                elseif ($_GET['provincie'] == "Waals-Brabant"|| $_GET['provincie']=="Brabant wallon") {
                   // Dealers voor Waals-Brabant
                   echo '<div class="row">
                   <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
@@ -625,7 +625,7 @@
                   </div>
                   </div>';
                 }
-                elseif ($_GET['provincie'] == "Brussels Hoofdstedelijk Gewest") {
+                elseif ($_GET['provincie'] == "Brussels Hoofdstedelijk Gewest"||$_GET['provincie']=="Bruxellse-Capitale") {
                   // Dealers voor Brussels Hoofdstedelijk Gewest
                   echo '<div class="row">
                   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -644,12 +644,20 @@
                   echo '<p><b>Momenteel zijn er geen dealers binnen de provincie Luik.
                   Wilt u het <a href="./dealers.php">opnieuw proberen</a>?</b></p>';
                 }
+                elseif ($_GET['provincie']=="Liège") {
+                  echo '<p><b>Actuellement, il n&#39;y a pas de dealers dans le province de Li&egrave;ge.
+                  Voulez-vous <a href="./dealers.php">essayer encoure une fois</a>?</b></p>';
+                }
                 elseif ($_GET['provincie'] == "Luxemburg") {
                   // Dealers voor Luxemburg
                   echo '<p><b>Momenteel zijn er geen dealers binnen de provincie Luxemburg.
                   Wilt u het <a href="./dealers.php">opnieuw proberen</a>?</b></p>';
                 }
-                elseif ($_GET['provincie'] == "Namen") {
+                elseif ($_GET['privincie'] == "Luxembourg") {
+                  echo '<p><b>Actuellement, il n&#39;y a pas de dealers dans le province de Luxembourg.
+                  Voulez-vous <a href="./dealers.php">essayer encoure une fois</a>?</b></p>';
+                }
+                elseif ($_GET['provincie'] == "Namen" || $_GET['provincie']=="Namur") {
                   // Dealers voor Namen
                   echo'<div class="row">
                   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -663,7 +671,7 @@
                   </div>
                   </div>';
                 }
-                elseif ($_GET['provincie'] == "Henegouwen") {
+                elseif ($_GET['provincie'] == "Henegouwen" || $_GET['provincie']=="Hainaut") {
                   // Dealers voor Henegouwen
                   echo '<div class="row">
                   <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
@@ -688,7 +696,7 @@
             else {
               // Toon het form om uw postcode in te geven
               $formshown = true;
-              echo '<form method="get" action=".'.$_SERVER['PHP_SELF'].'" class="form-horizontal">
+              echo '<div class="row"><div class="col-xs-12 col-sm-12 col-md-6 col-lg-6"><form method="get" action=".'.$_SERVER['PHP_SELF'].'" class="form-horizontal">
               <fieldset>
               <legend>Filter dealers</legend>
               <div class="form-group">
@@ -724,7 +732,44 @@
               </div>
               </div>
               </fieldset>
-              </form>';
+              </form></div>
+              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6"><form method="get" action=".'.$_SERVER['PHP_SELF'].'" class="form-horizontal">
+              <fieldset>
+              <legend>Filtrer les dealers</legend>
+              <div class="form-group">
+              <label for="inputPostcode" class="col-lg-2 control-label">Code Postale</label>
+              <div class="col-lg-10">
+              <input class="form-control" id="inputPostcode" placeholder="Code Postale" type="number" name="post_code">
+              </div>
+              </div>
+              <div class="form-group">
+              <label for="selProvincie" class="col-lg-2 control-label">Province</label>
+              <div class="col-lg-10">
+              <select class="form-control" id="selProvincie" name="provincie">
+              <option>--Choisissez--</option>
+              <option>Flandre Orientale</option>
+              <option>Flandre Occidentale</option>
+              <option>Anvers</option>
+              <option>Limbourg</option>
+              <option>Brabant flamand</option>
+              <option>Brabant wallon</option>
+              <option>Bruxellse-Capitale</option>
+              <option>Liège</option>
+              <option>Luxembourg</option>
+              <option>Namur</option>
+              <option>Hainaut</option>
+              </select>
+              <span class="help-block">Vous devez seulement completer une option.</span>
+              </div>
+              </div>
+              <div class="form-group">
+              <div class="col-lg-10 col-lg-offset-2">
+              <button type="reset" class="btn btn-default">Recommen&ccedil;er</button>
+              <button type="submit" class="btn btn-primary">Envoyer</button>
+              </div>
+              </div>
+              </fieldset>
+              </form></div></div>';
             }
            ?>
          </div>
