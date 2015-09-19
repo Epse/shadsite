@@ -24,7 +24,7 @@
              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                <p>
                  <b>Wil je graag op de hoogte blijven van de SHAD nieuwigheden en acties, schrijf je dan in op onze nieuwsbrief. </b>
-                 <br>Het volstaat om een mail te sturen naar<a href="mailto:info@shad.be" target="_blank">info@shad.be</a> met de vraag om de nieuwsbrief te ontvangen. Je mailadres wordt bewaard en opgeslagen bij SHAD Belgi&euml; en niet doorgegeven aan externe partners. U wordt occasioneel op de hoogte gehouden van aanbiedingen en volgende activiteiten van Shad Belgi&euml;.
+                 <br>Het volstaat om een mail te sturen naar <a href="mailto:info@shad.be" target="_blank">info@shad.be</a> met de vraag om de nieuwsbrief te ontvangen. Je mailadres wordt bewaard en opgeslagen bij SHAD Belgi&euml; en niet doorgegeven aan externe partners. U wordt occasioneel op de hoogte gehouden van aanbiedingen en volgende activiteiten van Shad Belgi&euml;.
                </p>
              </div>
              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
