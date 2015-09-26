@@ -1,4 +1,3 @@
-<script src="./jquery.rwdImageMaps.min.js"></script>
 <script>
 $(document).ready(function(e) {
     $('img[usemap]').rwdImageMaps();
@@ -75,7 +74,7 @@ $(document).ready(function(e) {
                 echo '<li><a href="./contact__.php">Contact</a></li>';
               }
             ?>
-            <li><a data-toggle="lightbox" href="./logo.jpg" rel="prettyPhoto">Launch Lightbox</a></li>
+            <li><a rel="prettyPhoto" href="./logo.jpg">Launch Lightbox</a></li>
           </ul>
         </div>
       </div>
