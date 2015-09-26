@@ -50,7 +50,7 @@ $(document).ready(function(e) {
             ?>
             <?php
               if ($_SERVER['PHP_SELF'] == '/dealers.php') {
-                echo '<li class="active"><a href="#">Dealers</a></li>';
+                echo '<li class="active"><a href="./dealers.php">Dealers</a></li>';
               }
               else {
                 echo '<li><a href="./dealers.php">Dealers</a></li>';
