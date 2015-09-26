@@ -9,7 +9,7 @@
     if (!isset($_COOKIE['bipaPromoSeen']) && $_COOKIE['bipaPromoSeen'] != "true")
     {
       $showPromo = true;
-      setcookie("bipaPromoSeen", "true");
+      setcookie("bipaPromoSeen", "true", time() + 60*60);
     }
     else {
       $showPromo = false;
