@@ -74,6 +74,7 @@ $(document).ready(function(e) {
                 echo '<li><a href="./contact__.php">Contact</a></li>';
               }
             ?>
+            <li><a data-toggle="lightbox" href="#promoLightBox">Launch Lightbox</a></li>
           </ul>
         </div>
       </div>

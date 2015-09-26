@@ -9,9 +9,6 @@
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <link rel="icon"
   href="./assets/favicon.ico">
-<!--lightbox stuffs -->
-<link href="./bootstrap-lightbox.min.css" rel="stylesheet">
-<script src="./bootstrap-lightbox.min.js"></script>
 <?php
   // Connect to MySQL DB
   $shad_backend_sql = new mysqli("localhost", "shad_manager", "4QitJVKSqBdw", "shad_backend");
