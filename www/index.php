@@ -1,3 +1,4 @@
+<?php include './include/cookie.php'; ?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -16,6 +17,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                   <p>
                     <b>Welkom op de website van Shad en in de technische wereld van de bagageproducten.</b>
+                    <br><b><?php echo $_COOKIE['bipaPromoSeen']; ?></b>
                   </p>
                   <p>
                     Wandel even door de mogelijkheden op gebied van topcases, koffersets, bagage en comfort.

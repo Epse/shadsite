@@ -1,7 +1,14 @@
 <script>
 $(document).ready(function(e) {
     $('img[usemap]').rwdImageMaps();
-    $("a[rel^='prettyPhoto']").prettyPhoto();
+    $("a[rel^='prettyPhoto']").prettyPhoto({social_tools: false});
+    <?php
+    if ($showPromo) {
+      echo "$.prettyPhoto.open('";
+      echo $promoHtml;
+      echo "', '', '');";
+    }
+    ?>
 });
 </script>
 <div class="row">
@@ -74,7 +81,6 @@ $(document).ready(function(e) {
                 echo '<li><a href="./contact__.php">Contact</a></li>';
               }
             ?>
-            <li><a rel="prettyPhoto" href="./logo.jpg">Launch Lightbox</a></li>
           </ul>
         </div>
       </div>
