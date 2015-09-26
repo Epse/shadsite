@@ -1,7 +1,14 @@
-<script src="./jquery.rwdImageMaps.min.js"></script>
 <script>
 $(document).ready(function(e) {
     $('img[usemap]').rwdImageMaps();
+    $("a[rel^='prettyPhoto']").prettyPhoto({social_tools: false});
+    <?php
+    if ($showPromo) {
+      echo "$.prettyPhoto.open('";
+      echo $promoHtml;
+      echo "', '', '');";
+    }
+    ?>
 });
 </script>
 <div class="row">
