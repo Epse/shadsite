@@ -2,6 +2,7 @@
 <script>
 $(document).ready(function(e) {
     $('img[usemap]').rwdImageMaps();
+    $("a[rel^='prettyPhoto']").prettyPhoto();
 });
 </script>
 <div class="row">
@@ -74,7 +75,7 @@ $(document).ready(function(e) {
                 echo '<li><a href="./contact__.php">Contact</a></li>';
               }
             ?>
-            <li><a data-toggle="lightbox" href="#promoLightBox">Launch Lightbox</a></li>
+            <li><a data-toggle="lightbox" href="./logo.jpg" rel="prettyPhoto">Launch Lightbox</a></li>
           </ul>
         </div>
       </div>

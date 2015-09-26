@@ -9,6 +9,9 @@
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <link rel="icon"
   href="./assets/favicon.ico">
+<!-- prettyPhoto stuffs -->
+<link rel="stylesheet" href="./assets/css/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
+<script src="./assets/js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
 <?php
   // Connect to MySQL DB
   $shad_backend_sql = new mysqli("localhost", "shad_manager", "4QitJVKSqBdw", "shad_backend");
