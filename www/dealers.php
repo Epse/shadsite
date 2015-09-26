@@ -34,8 +34,8 @@
                   <b><a href="http://www.bikeparts.be" target="_blank">Bike Parts</a></b>
                   <br>Lokerenbaan 120
                   <br>9240 Zele
-                  <br><a href="tel:060214176" class="visible-xs">060/21.41.76</a>
-                  <span class="hidden-xs">060/21.41.76</span>
+                  <br><a href="tel:052219486" class="visible-xs">052&nbsp;21&nbsp;94&nbsp;86</a>
+                  <span class="hidden-xs">052&nbsp;21&nbsp;94&nbsp;86</span>
                   </p>
                   </div>
                   <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
@@ -43,15 +43,17 @@
                   <b><a href="http://www.bikerszone.be" target="_blank">Bikers Zone</a></b>
                   <br>Vlamstraat 51
                   <br>9450 Denderhoutem
-                  <br><a href="tel:089411376" class="visible-xs">089/41.13.76</a>
-                  <span class="hidden-xs">089/41.13.76</span>
+                  <br><a href="tel:054335700" class="visible-xs">054&nbsp;33&nbsp;57&nbsp;00</a>
+                  <span class="hidden-xs">054&nbsp;33&nbsp;57&nbsp;00</span>
                   </p>
                   </div>
                   <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                   <p>
-                  <b>De Pauw R.L.E.</b>
+                  <b><a href="http://www.depauwrle.be" target="_blank">De Pauw R.L.E.</a></b>
                   <br>Zeeschipstraat 32
                   <br>9000 Gent
+                  <br><a href="tel:092538259" class="visible-xs">092&nbsp;53&nbsp;82&nbsp;59</a>
+                  <span class="hidden-xs">092&nbsp;53&nbsp;82&nbsp;59</span>
                   </p>
                   </div>
                   <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
@@ -59,8 +61,8 @@
                   <b><a href="http://www.erx.be" target="_blank">E.R.X.</a></b>
                   <br>Westergemstraat 140
                   <br>9032 Wondelgem
-                  <br><a href="tel:092537327" class="visible-xs">092/53.73.27</a>
-                  <span class="hidden-xs">092/53.73.27</span>
+                  <br><a href="tel:092537327" class="visible-xs">092&nbsp;53&nbsp;73&nbsp;27</a>
+                  <span class="hidden-xs">092&nbsp;53&nbsp;73&nbsp;27</span>
                   </p>
                   </div>
                   <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
@@ -68,6 +70,8 @@
                   <b><a href="http://www.dirkvanmol.be" target="_blank">Moto&#39;s Dirk Van Mol</a></b>
                   <br>Krijgsbaan 78
                   <br>9140 Temse
+                  <br><a href="tel:037111792" class="visible-xs">037&nbsp;11&nbsp;17&nbsp;92</a>
+                  <span class="hidden-xs">037&nbsp;11&nbsp;17&nbsp;92</span>
                   </p>
                   </div>
                   <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
@@ -75,8 +79,8 @@
                   <b><a href="http://www.rooseparck.be" target="_blank">Rooseparck</a></b>
                   <br>Heirweg 76
                   <br>9270 Kalken
-                  <br><a href="tel:026755820" class="visible-xs">026/75.58.20</a>
-                  <span class="hidden-xs">026/75.58.20</span>
+                  <br><a href="tel:093675385" class="visible-xs">093&nbsp;67&nbsp;53&nbsp;85</a>
+                  <span class="hidden-xs">093&nbsp;67&nbsp;53&nbsp;85</span>
                   </p>
                   </div>
                   <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
@@ -84,8 +88,8 @@
                   <b><a href="http://www.motohandelwauters.be" target="_blank">Wauters Motohandel</a></b>
                   <br>Oostveldstraat 206-208
                   <br>9900 Eeklo
-                  <br><a href="tel:051725512" class="visible-xs">051/72.55.12</a>
-                  <span class="hidden-xs">051/72.55.12</span>
+                  <br><a href="tel:093771250" class="visible-xs">093&nbsp;77&nbsp;12&nbsp;50</a>
+                  <span class="hidden-xs">093&nbsp;77&nbsp;12&nbsp;50</span>
                   </p>
                   </div>
                   <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
@@ -93,8 +97,8 @@
                   <b><a href="http://www.motorshopeeklo.be" target="_blank">Motorshop Eeklo</a></b>
                   <br>Zandvleuge 2
                   <br>9900 Eeklo
-                  <br><a href="tel:089861462" class="visible-xs">089/86.14.62</a>
-                  <span class="hidden-xs">089/86.14.62</span>
+                  <br><a href="tel:093778849" class="visible-xs">093&nbsp;77&nbsp;88&nbsp;49</a>
+                  <span class="hidden-xs">093&nbsp;77&nbsp;88&nbsp;49</span>
                   </p>
                   </div>
                   </div>';
@@ -367,8 +371,8 @@
                   <b><a href="http://www.bikeparts.be" target="_blank">Bike Parts</a></b>
                   <br>Lokerenbaan 120
                   <br>9240 Zele
-                  <br><a href="tel:060214176" class="visible-xs">060/21.41.76</a>
-                  <span class="hidden-xs">060/21.41.76</span>
+                  <br><a href="tel:052219486" class="visible-xs">052&nbsp;21&nbsp;94&nbsp;86</a>
+                  <span class="hidden-xs">052&nbsp;21&nbsp;94&nbsp;86</span>
                   </p>
                   </div>
                   <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
@@ -376,15 +380,17 @@
                   <b><a href="http://www.bikerszone.be" target="_blank">Bikers Zone</a></b>
                   <br>Vlamstraat 51
                   <br>9450 Denderhoutem
-                  <br><a href="tel:089411376" class="visible-xs">089/41.13.76</a>
-                  <span class="hidden-xs">089/41.13.76</span>
+                  <br><a href="tel:054335700" class="visible-xs">054&nbsp;33&nbsp;57&nbsp;00</a>
+                  <span class="hidden-xs">054&nbsp;33&nbsp;57&nbsp;00</span>
                   </p>
                   </div>
                   <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                   <p>
-                  <b>De Pauw R.L.E.</b>
+                  <b><a href="http://www.depauwrle.be" target="_blank">De Pauw R.L.E.</a></b>
                   <br>Zeeschipstraat 32
                   <br>9000 Gent
+                  <br><a href="tel:092538259" class="visible-xs">092&nbsp;53&nbsp;82&nbsp;59</a>
+                  <span class="hidden-xs">092&nbsp;53&nbsp;82&nbsp;59</span>
                   </p>
                   </div>
                   <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
@@ -392,8 +398,8 @@
                   <b><a href="http://www.erx.be" target="_blank">E.R.X.</a></b>
                   <br>Westergemstraat 140
                   <br>9032 Wondelgem
-                  <br><a href="tel:092537327" class="visible-xs">092/53.73.27</a>
-                  <span class="hidden-xs">09/53.73.27</span>
+                  <br><a href="tel:092537327" class="visible-xs">092&nbsp;53&nbsp;73&nbsp;27</a>
+                  <span class="hidden-xs">092&nbsp;53&nbsp;73&nbsp;27</span>
                   </p>
                   </div>
                   <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
@@ -401,6 +407,8 @@
                   <b><a href="http://www.dirkvanmol.be" target="_blank">Moto&#39;s Dirk Van Mol</a></b>
                   <br>Krijgsbaan 78
                   <br>9140 Temse
+                  <br><a href="tel:037111792" class="visible-xs">037&nbsp;11&nbsp;17&nbsp;92</a>
+                  <span class="hidden-xs">037&nbsp;11&nbsp;17&nbsp;92</span>
                   </p>
                   </div>
                   <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
@@ -408,8 +416,8 @@
                   <b><a href="http://www.rooseparck.be" target="_blank">Rooseparck</a></b>
                   <br>Heirweg 76
                   <br>9270 Kalken
-                  <br><a href="tel:026755820" class="visible-xs">026/75.58.20</a>
-                  <span class="hidden-xs">026/75.58.20</span>
+                  <br><a href="tel:093675385" class="visible-xs">093&nbsp;67&nbsp;53&nbsp;85</a>
+                  <span class="hidden-xs">093&nbsp;67&nbsp;53&nbsp;85</span>
                   </p>
                   </div>
                   <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
@@ -417,8 +425,8 @@
                   <b><a href="http://www.motohandelwauters.be" target="_blank">Wauters Motohandel</a></b>
                   <br>Oostveldstraat 206-208
                   <br>9900 Eeklo
-                  <br><a href="tel:051725512" class="visible-xs">051/72.55.12</a>
-                  <span class="hidden-xs">051/72.55.12</span>
+                  <br><a href="tel:093771250" class="visible-xs">093&nbsp;77&nbsp;12&nbsp;50</a>
+                  <span class="hidden-xs">093&nbsp;77&nbsp;12&nbsp;50</span>
                   </p>
                   </div>
                   <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
@@ -426,8 +434,8 @@
                   <b><a href="http://www.motorshopeeklo.be" target="_blank">Motorshop Eeklo</a></b>
                   <br>Zandvleuge 2
                   <br>9900 Eeklo
-                  <br><a href="tel:089861462" class="visible-xs">089/86.14.62</a>
-                  <span class="hidden-xs">089/86.14.62</span>
+                  <br><a href="tel:093778849" class="visible-xs">093&nbsp;77&nbsp;88&nbsp;49</a>
+                  <span class="hidden-xs">093&nbsp;77&nbsp;88&nbsp;49</span>
                   </p>
                   </div>
                   </div>';
