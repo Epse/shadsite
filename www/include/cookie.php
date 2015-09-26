@@ -1,5 +1,5 @@
 <?php
-  $shad_backend_sql = new mysqli("localhost", "shad_manager", "4QitJVKSqBdw", "shad_backend");
+  $shad_backend_sql = new mysqli("localhost", "shad_php", "Rq1vbDY6BD", "shad_backend");
   $result = $shad_backend_sql->query("SELECT * FROM promos WHERE active = 1");
   if ($result->num_rows > 0)
   {
