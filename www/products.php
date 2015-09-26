@@ -25,7 +25,7 @@
            <div class="row">
              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                <p>
-                 <b>Download de volledige <a href="http://shad.es/getCatalogue.php" target="_blank">Shad catalogus</a></b>
+                 <b>Download de volledige <a href="http://www.motorcyclepartsnetwork.co.uk/wholesale/aftermarket/catalogo-shad-2015.pdf" target="_blank">Shad catalogus</a></b>
                  <br>Voor een bestelling contacteer je best &eacute;&eacute;n van <a href="./dealers.php">de dealers</a>.
                </p>
                <p>
