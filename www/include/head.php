@@ -2,7 +2,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!-- Bootstrap - simplex theme -->
-<link href="./bootstrapshad.css" rel="stylesheet">
+<link href="./assets/css/bootstrapshad.css" rel="stylesheet">
 <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <!-- Latest compiled JavaScript -->
