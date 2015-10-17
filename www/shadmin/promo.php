@@ -60,7 +60,7 @@ if ($_POST['txtUsername'] == $username && $_POST['txtPassword'] == $password) {
               <!-- Collect the nav links, forms, and other content for toggling -->
               <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="nav navbar-nav">
-                  <li><a href="./promo.php">Promoties</a></li>
+                  <li class="active"><a href="#">Promoties</a></li>
                   <li><a href="./nieuws.php">Nieuws</a></li>
                 </ul>
               </div>
@@ -69,6 +69,37 @@ if ($_POST['txtUsername'] == $username && $_POST['txtPassword'] == $password) {
         </div>
       </div>
       </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+          <div class="panel">
+            <div class="panel-heading">
+              <h3>Kies een promo</h3>
+            </div>
+            <div class="panel-body">
+              <form name="form" method="get" action="<?php echo $_SERVER['PHP_SELF']; ?>" class="form-horizontal">
+                <fieldset>
+                  <div class="form-group">
+                    <select name="selectedPromo">
+                      <?php
+                      $shad_backend_sql = new mysqli("localhost", "shad_php", "Rq1vbDY6BD", "shad_backend");
+                      $result = $shad_backend_sql->query("SELECT * FROM promos");
+                      for ($row_no = $result->num_rows - 1; $row_no >= 0; $row_no--) {
+                        $result->data_seek($row_no);
+                        $row = $result->fetch_assoc();
+                        echo "<option>" . $row['title'] . "</option>";
+                      }
+                      ?>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <input type="submit" name="Submit" value="Bekijk">
+                  </div>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+        </div>
       </div>
       <!-- footer include -->
       <?php include '../include/footer.php'; ?>
@@ -141,6 +172,35 @@ elseif ($_COOKIE['shadmin'] == sha1($username . $password . $_SERVER['REMOTE_ADD
           </div>
         </div>
         </div>
+        </div>
+        <div class="row">
+          <div class="panel">
+            <div class="panel-heading">
+              <h3>Kies een promo</h3>
+            </div>
+            <div class="panel-body">
+              <form name="form" method="get" action="<?php echo $_SERVER['PHP_SELF']; ?>" class="form-horizontal">
+                <fieldset>
+                  <div class="form-group">
+                    <select name="selectedPromo">
+                      <?php
+                      $shad_backend_sql = new mysqli("localhost", "shad_php", "Rq1vbDY6BD", "shad_backend");
+                      $result = $shad_backend_sql->query("SELECT * FROM promos");
+                      for ($row_no = $result->num_rows - 1; $row_no >= 0; $row_no--) {
+                        $result->data_seek($row_no);
+                        $row = $result->fetch_assoc();
+                        echo "<option>" . $row['title'] . "</option>";
+                      }
+                      ?>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <input type="submit" name="Submit" value="Bekijk">
+                  </div>
+                </fieldset>
+              </form>
+            </div>
+          </div>
         </div>
         <!-- footer include -->
         <?php include '../include/footer.php'; ?>
