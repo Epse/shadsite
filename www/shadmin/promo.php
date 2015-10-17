@@ -124,7 +124,7 @@ if (!isset($_GET['selectedPromo'])) {
   }
   $page = $page . '<label class="control-label" for="promoIMG">Nieuwe Afbeelding</label>';
   $page = $page . '<input type="file" name="promoIMG" id="promoIMG">';
-  $page = $page . '<a href="' . $row['html'] . '" target="_blank">Huidige Afbeelding</a>'
+  $page = $page . '<a href="' . $row['html'] . '" target="_blank">Huidige Afbeelding</a>';
   $page = $page . '<input type="hidden" name="creationDate" value="' . $row['creationDate'] . '">';
   $page = $page . '<input type="submit" value="Opslaan" name="submit">';
 }
