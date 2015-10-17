@@ -3,6 +3,13 @@
 // Define your username and password
 $username = "johan";
 $password = "Rn42DAay";
+$shad_backend_sql = new mysqli("localhost", "shad_php", "Rq1vbDY6BD", "shad_backend");
+
+if (isset($_GET['selectedPromo'])) {
+  $result = $shad_backend_sql->query("SELECT * from promos WHERE title == " . $_GET['selectedPromo']);
+  $row = $result->fetch_assoc;
+}
+
 $page = '<!DOCTYPE html>
 <html>
   <head>
@@ -72,10 +79,9 @@ $page = '<!DOCTYPE html>
               <h3>Kies een promo</h3>
             </div>
             <div class="panel-body">
-              <form name="form" method="get" action="<?php echo $_SERVER['PHP_SELF']; ?>" class="form-horizontal">
+              <form name="form" method="get" action="' . $_SERVER['PHP_SELF'] . '" class="form-horizontal">
                 <fieldset>
                     <select name="selectedPromo"> ';
-$shad_backend_sql = new mysqli("localhost", "shad_php", "Rq1vbDY6BD", "shad_backend");
 $result = $shad_backend_sql->query("SELECT * FROM promos");
 for ($row_no = $result->num_rows - 1; $row_no >= 0; $row_no--) {
   $result->data_seek($row_no);
@@ -85,6 +91,43 @@ for ($row_no = $result->num_rows - 1; $row_no >= 0; $row_no--) {
 $page = $page . '
                     </select>
                     <input type="submit" name="Submit" value="Bekijk">
+                </fieldset>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+          <div class="panel">
+            <div class="panel-heading">
+              <h3>Bewerk Promo</h3>
+            </div>
+            <div class="panel-body">
+              <form name="editForm" method="post" action="./processedit.php" class="form-horizontal" enctype="multipart/form-data">
+                <fieldset>';
+if (!isset($_GET['selectedPromo'])) {
+  $page = $page . '
+                  <label for="txtTitle" class="control-label">Titel</label>
+                  <input type="text" name="txtTitle" id="txtTitle">
+                  <label class="control-label" for="chkActive">Actief</label>
+                  <input id="chkActive" name="chkActive" type="checkbox">
+                  <label class="control-label" for="promoIMG">Nieuwe Afbeelding</label>
+                  <input type="file" name="promoIMG" id="promoIMG">
+                  <input type="submit" value="Opslaan" name="submit">';
+} else {
+  $page = $page . '<label for="txtTitle" class="control-label">Titel</label>';
+  $page = $page . '<input type="text" name="txtTitle" id="txtTitle" value="' . $row['title'] . '">';
+  $page = $page . '<label class="control-label" for="chkActive">Actief</label>';
+  if ($row['active'] == 1) {
+    $page = $page . '<input id="chkActive" name="chkActive" type="checkbox" checked>';
+  } else {
+    $page = $page . '<input id="chkActive" name="chkActive" type="checkbox">'
+  }
+  $page = $page . '<label class="control-label" for="promoIMG">Nieuwe Afbeelding</label>';
+  $page = $page . '<input type="file" name="promoIMG" id="promoIMG">';
+  $page = $page . '<a href="' . $row['html'] . '" target="_blank">Huidige Afbeelding</a>'
+  $page = $page . '<input type="submit" value="Opslaan" name="submit">';
+}
+$page = $page . '
                 </fieldset>
               </form>
             </div>
@@ -123,5 +166,5 @@ elseif ($_COOKIE['shadmin'] == sha1($username . $password . $_SERVER['REMOTE_ADD
 <br>
 <?php
 }
-
+$shad_backend_sql->close();
 ?>
