@@ -6,8 +6,13 @@ $password = "Rn42DAay";
 $shad_backend_sql = new mysqli("localhost", "shad_php", "Rq1vbDY6BD", "shad_backend");
 
 if (isset($_GET['selectedPromo'])) {
-  $result = $shad_backend_sql->query("SELECT * from promos WHERE title == " . $_GET['selectedPromo']);
-  $row = $result->fetch_assoc;
+  $result = $shad_backend_sql->query("SELECT * from promos WHERE title = '" . $_GET['selectedPromo'] . "'");
+  if ($result != false) {
+    $row = $result->fetch_assoc();
+  } else {
+    echo $shad_backend_sql->errno;
+    die("<br>Error mysqling sutff");
+  }
 }
 
 $page = '<!DOCTYPE html>
@@ -114,6 +119,13 @@ if (!isset($_GET['selectedPromo'])) {
                   <input type="file" name="promoIMG" id="promoIMG">
                   <input type="submit" value="Opslaan" name="submit">';
 } else {
+  $result = $shad_backend_sql->query("SELECT * FROM promos WHERE title='" . $_GET['selectedPromo'] . "'");
+  if($result != false) {
+    $row = $result->fetch_assoc();
+  } else {
+    echo $shad_backend_sql->errno;
+    die("error while looking for stuff");
+  }
   $page = $page . '<label for="txtTitle" class="control-label">Titel</label>';
   $page = $page . '<input type="text" name="txtTitle" id="txtTitle" value="' . $row['title'] . '"><br>';
   $page = $page . '<label class="control-label" for="chkActive">Actief</label>';
