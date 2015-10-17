@@ -16,7 +16,7 @@ $(document).ready(function(e) {
 <div class="panel" style="margin-top: 20px;">
   <div class="panel-body">
   <h6 class="text-center">SHAD Belgium : cases - seats - luggage : <a href="mailto:info@shad.be" target="_blank">info@shad.be</a></h6>
-  <img src="../logo.jpg" alt="logo" usemap="#headermap" class="img-responsive center-block">
+  <img src="./logo.jpg" alt="logo" usemap="#headermap" class="img-responsive center-block">
 </div>
 </div>
   <map name="headermap">
