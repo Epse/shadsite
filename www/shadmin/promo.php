@@ -141,7 +141,7 @@ if (!isset($_GET['selectedPromo'])) {
   $page = $page . '<a href=".' . $row['html'] . '" target="_blank">Huidige Afbeelding</a><br>';
   $page = $page . '<input type="hidden" name="creationDate" value="' . $row['creationDate'] . '">';
   $page = $page . '<input type="submit" value="Opslaan" name="submit">';
-  $page = $page . '<input type="submit" value="Verwijder" name="delete">'
+  $page = $page . '<input type="submit" value="Verwijder" name="delete">';
 }
 $page = $page . '
                 </fieldset>
