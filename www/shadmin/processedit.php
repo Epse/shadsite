@@ -2,7 +2,7 @@
 
 $shad_backend_sql = new mysqli("localhost", "shad_php", "Rq1vbDY6BD", "shad_backend");
 $target_dir = "./assets/promoIMGS/";
-if (isset($_FILES['promoIMG']['tmp_name'])) {
+if (!empty($_FILES['promoIMG']['name'])) {
   $target_file = $target_dir . basename($_FILES['promoIMG']['name']);
   $uploadOK = 1;
   $imageFileType = pathinfo($target_file, PATHINFO_EXTENSION);
@@ -42,7 +42,13 @@ if (isset($_FILES['promoIMG']['tmp_name'])) {
 }
 
 // Now process other data
-$mysql_query = "UPDATE promos SET title='" . $_POST['txtTitle'] . ", active=" . $_POST['chkActive'];
+$mysql_query = "UPDATE promos SET title='" . $_POST['txtTitle'] . ", active=";
+
+if($_POST['chkActive']==1) {
+  $mysql_query = $mysql_query . "1";
+} else {
+  $mysql_query = $mysql_query . "0";
+}
 
 if ($uploadOK) {
   $mysql_query = $mysql_query . " ,html='" . $target_file . "'";

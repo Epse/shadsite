@@ -40,9 +40,15 @@ if (isset($_FILES['promoIMG']['tmp_name'])) {
         $shad_backend_sql->query("UPDATE promos SET active=0 WHERE active=1");
       }
 
-      $mysql_query = "INSERT INTO promos (title, active, html) VALUES ('"
-        . $_POST['txtTitleNew'] . "', '" . $_POST['chkActiveNew'] . "', '"
-        . $target_file . "')";
+      if ($_POST['chkActiveNew'] == 1) {
+        $mysql_query = "INSERT INTO promos (title, active, html) VALUES ('"
+          . $_POST['txtTitleNew'] . "', 1, '"
+          . $target_file . "')";
+      } else {
+        $mysql_query = "INSERT INTO promos (title, active, html) VALUES ('"
+          . $_POST['txtTitleNew'] . "', 0, '"
+          . $target_file . "')";
+      }
 
       $shad_backend_sql->query($mysql_query);
 
