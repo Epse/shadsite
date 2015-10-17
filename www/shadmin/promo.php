@@ -97,6 +97,7 @@ for ($row_no = $result->num_rows - 1; $row_no >= 0; $row_no--) {
 }
 $page = $page . '
                     </select>
+                    <br>
                     <input type="submit" name="Submit" value="Bekijk">
                     <input type="submit" value="Verwijder" name="delete">
                 </fieldset>
