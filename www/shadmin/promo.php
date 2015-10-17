@@ -5,7 +5,7 @@ $username = "johan";
 $password = "Rn42DAay";
 $shad_backend_sql = new mysqli("localhost", "shad_php", "Rq1vbDY6BD", "shad_backend");
 
-if (isset($_GET['selectedPromo'])) {
+if (isset($_GET['selectedPromo']) && !isset($_GET['delete']) && $_GET['delete'] != "Verwijder") {
   $result = $shad_backend_sql->query("SELECT * from promos WHERE title = '" . $_GET['selectedPromo'] . "'");
   if ($result != false) {
     $row = $result->fetch_assoc();
@@ -13,6 +13,8 @@ if (isset($_GET['selectedPromo'])) {
     echo $shad_backend_sql->errno;
     die("<br>Error mysqling sutff");
   }
+} elseif (isset($_GET['delete']) && $_GET['delete'] == "Verwijder") {
+  $shad_backend_sql->query("DELETE FROM promos WHERE title = '" . $_GET['selectedPromo'] . "'");
 }
 
 $page = '<!DOCTYPE html>
@@ -139,6 +141,7 @@ if (!isset($_GET['selectedPromo'])) {
   $page = $page . '<a href=".' . $row['html'] . '" target="_blank">Huidige Afbeelding</a><br>';
   $page = $page . '<input type="hidden" name="creationDate" value="' . $row['creationDate'] . '">';
   $page = $page . '<input type="submit" value="Opslaan" name="submit">';
+  $page = $page . '<input type="submit" value="Verwijder" name="delete">'
 }
 $page = $page . '
                 </fieldset>

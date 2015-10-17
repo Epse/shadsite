@@ -55,6 +55,7 @@ if (!empty($uploadOK)) {
 }
 
 $mysql_query = $mysql_query . " WHERE creationDate='" . $_POST['creationDate'] . "'";
+
 $shad_backend_sql->query($mysql_query);
 echo '<a href="./index.php">Keer terug</a>'
 ?>
