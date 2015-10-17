@@ -98,6 +98,7 @@ for ($row_no = $result->num_rows - 1; $row_no >= 0; $row_no--) {
 $page = $page . '
                     </select>
                     <input type="submit" name="Submit" value="Bekijk">
+                    <input type="submit" value="Verwijder" name="delete">
                 </fieldset>
               </form>
             </div>
@@ -141,7 +142,6 @@ if (!isset($_GET['selectedPromo'])) {
   $page = $page . '<a href=".' . $row['html'] . '" target="_blank">Huidige Afbeelding</a><br>';
   $page = $page . '<input type="hidden" name="creationDate" value="' . $row['creationDate'] . '">';
   $page = $page . '<input type="submit" value="Opslaan" name="submit">';
-  $page = $page . '<input type="submit" value="Verwijder" name="delete">';
 }
 $page = $page . '
                 </fieldset>
