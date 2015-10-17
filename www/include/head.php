@@ -3,7 +3,6 @@
 
 <!-- Bootstrap - simplex theme -->
 <link href="./assets/css/bootstrapshad.css" rel="stylesheet">
-
 <link rel="icon"
   href="./assets/favicon.ico">
 <!-- prettyPhoto stuffs -->
