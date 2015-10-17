@@ -36,6 +36,7 @@ if (isset($_FILES['promoIMG']['tmp_name'])) {
       echo "The file " . basename($_FILES['promoIMG']['name']) . "has uploaded.";
     } else {
       echo 'An error occured.';
+      die();
     }
   }
 }
