@@ -109,7 +109,7 @@ if (!isset($_GET['selectedPromo'])) {
                   <label for="txtTitle" class="control-label">Titel</label>
                   <input type="text" name="txtTitle" id="txtTitle">
                   <label class="control-label" for="chkActive">Actief</label>
-                  <input id="chkActive" name="chkActive" type="checkbox">
+                  <input id="chkActive" name="chkActive" type="checkbox" value="1">
                   <label class="control-label" for="promoIMG">Nieuwe Afbeelding</label>
                   <input type="file" name="promoIMG" id="promoIMG">
                   <input type="submit" value="Opslaan" name="submit">';
@@ -118,13 +118,14 @@ if (!isset($_GET['selectedPromo'])) {
   $page = $page . '<input type="text" name="txtTitle" id="txtTitle" value="' . $row['title'] . '">';
   $page = $page . '<label class="control-label" for="chkActive">Actief</label>';
   if ($row['active'] == 1) {
-    $page = $page . '<input id="chkActive" name="chkActive" type="checkbox" checked>';
+    $page = $page . '<input id="chkActive" name="chkActive" type="checkbox" value="1" checked>';
   } else {
-    $page = $page . '<input id="chkActive" name="chkActive" type="checkbox">'
+    $page = $page . '<input id="chkActive" name="chkActive" type="checkbox" value="1">'
   }
   $page = $page . '<label class="control-label" for="promoIMG">Nieuwe Afbeelding</label>';
   $page = $page . '<input type="file" name="promoIMG" id="promoIMG">';
   $page = $page . '<a href="' . $row['html'] . '" target="_blank">Huidige Afbeelding</a>'
+  $page = $page . '<input type="hidden" name="creationDate" value="' . $row['creationDate'] . '">';
   $page = $page . '<input type="submit" value="Opslaan" name="submit">';
 }
 $page = $page . '

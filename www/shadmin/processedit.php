@@ -40,4 +40,15 @@ if (isset($_FILES['promoIMG']['tmp_name'])) {
   }
 }
 
+// Now process other data
+$mysql_query = "UPDATE promos SET title='" . $_POST['txtTitle'] . ", active=" . $_POST['chkActive'];
+
+if ($uploadOK) {
+  $mysql_query = $mysql_query . " ,html='" . $target_file . "'";
+}
+
+$mysql_query = $mysql_query . " WHERE creationDate=" . $_POST['creationDate'];
+
+$shad_backend_sql->query($mysql_query);
+
 ?>
