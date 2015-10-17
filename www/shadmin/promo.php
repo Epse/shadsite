@@ -135,6 +135,30 @@ $page = $page . '
           </div>
         </div>
       </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <div class="panel">
+            <div class="panel-heading">
+              <h3>Nieuwe promo</h3>
+            </div>
+            <div class="panel-body">
+              <form name="newForm" method="post" action="./processnew.php" class="form-horizontal" enctype="multipart/form-data">
+                <fieldset>
+                  <label for="txtTitleNew" class="control-label">Titel</label>
+                  <input type="text" id="txtTitleNew" name="txtTitleNew" placeholder="titel">
+                  <label for="chkActiveNew" class="control-label">Actief</label>
+                  <input type="checkbox" id="chkActiveNew" name="chkActiveNew" value="1">
+                  <label for="newPromoIMG" class="control-label">Afbeelding</label>
+                  <input type="file" name="newPromoIMG" id ="newPromoIMG">
+                  <label for="chkUniq" class="control-label">Enige actief</label>
+                  <input type="checkbox" id="chkUniq" name="chkUniq" value=1>
+                  <input type="submit" value="Opslaan" name="submit">
+                </fieldset>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
       <!-- footer include -->';
 $page = $page . file_get_contents('../include/footer.php');
 $page = $page . '
