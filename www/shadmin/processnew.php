@@ -2,13 +2,13 @@
 
 $shad_backend_sql = new mysqli("localhost", "shad_php", "Rq1vbDY6BD", "shad_backend");
 $target_dir = "./assets/promoIMGS/";
-if (!empty($_FILES['newPromoIMG']['name'])) {
-  $target_file = $target_dir . basename($_FILES['newPromoIMG']['name']);
+if (isset($_FILES['promoIMG']['tmp_name'])) {
+  $target_file = $target_dir . basename($_FILES['promoIMG']['name']);
   $uploadOK = 1;
   $imageFileType = pathinfo($target_file, PATHINFO_EXTENSION);
 
   // Check for real image
-    $check = getimagesize($_FILES['newPromoIMG']['tmp_name']);
+    $check = getimagesize($_FILES['promoIMG']['tmp_name']);
 
   if ($check) {
     echo "File is an image - " . $check['mime'] . ".";
@@ -32,9 +32,8 @@ if (!empty($_FILES['newPromoIMG']['name'])) {
   if (!$uploadOK) {
     echo "Sorry, try again.";
   } else {
-    echo 'upload OK';
-    if (move_uploaded_file($_FILES['newPromoIMG']['tmp_name'], "." . $target_file)) {
-      echo "The file " . basename($_FILES['newPromoIMG']['name']) . "has uploaded.";
+    if (move_uploaded_file($_FILES['promoIMG']['tmp_name'], "." . $target_file)) {
+      echo "The file " . basename($_FILES['promoIMG']['name']) . "has uploaded.";
 
       // If unique is set, make all active promos inactive
       if($_POST['chkUniq'] == 1) {
@@ -58,10 +57,8 @@ if (!empty($_FILES['newPromoIMG']['name'])) {
       die();
     }
   }
-echo $mysql_query;
-echo '<br>';
-$shad_backend_sql->query($mysql_query);
-echo '<a href="./index.php">Keer terug</a><br>';
-echo $shad_backend_sql->errno;
 }
+
+$shad_backend_sql->query($mysql_query);
+echo '<a href="./index.php">Keer terug</a>';
 ?>
