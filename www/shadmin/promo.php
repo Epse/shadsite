@@ -115,16 +115,16 @@ if (!isset($_GET['selectedPromo'])) {
                   <input type="submit" value="Opslaan" name="submit">';
 } else {
   $page = $page . '<label for="txtTitle" class="control-label">Titel</label>';
-  $page = $page . '<input type="text" name="txtTitle" id="txtTitle" value="' . $row['title'] . '">';
+  $page = $page . '<input type="text" name="txtTitle" id="txtTitle" value="' . $row['title'] . '"><br>';
   $page = $page . '<label class="control-label" for="chkActive">Actief</label>';
   if ($row['active'] == 1) {
-    $page = $page . '<input id="chkActive" name="chkActive" type="checkbox" value="1" checked>';
+    $page = $page . '<input id="chkActive" name="chkActive" type="checkbox" value="1" checked><br>';
   } else {
-    $page = $page . '<input id="chkActive" name="chkActive" type="checkbox" value="1">'
+    $page = $page . '<input id="chkActive" name="chkActive" type="checkbox" value="1"><br>';
   }
   $page = $page . '<label class="control-label" for="promoIMG">Nieuwe Afbeelding</label>';
-  $page = $page . '<input type="file" name="promoIMG" id="promoIMG">';
-  $page = $page . '<a href="' . $row['html'] . '" target="_blank">Huidige Afbeelding</a>';
+  $page = $page . '<input type="file" name="promoIMG" id="promoIMG"><br>';
+  $page = $page . '<a href="' . $row['html'] . '" target="_blank">Huidige Afbeelding</a><br>';
   $page = $page . '<input type="hidden" name="creationDate" value="' . $row['creationDate'] . '">';
   $page = $page . '<input type="submit" value="Opslaan" name="submit">';
 }
@@ -146,12 +146,16 @@ $page = $page . '
                 <fieldset>
                   <label for="txtTitleNew" class="control-label">Titel</label>
                   <input type="text" id="txtTitleNew" name="txtTitleNew" placeholder="titel">
+                  <br>
                   <label for="chkActiveNew" class="control-label">Actief</label>
                   <input type="checkbox" id="chkActiveNew" name="chkActiveNew" value="1">
+                  <br>
                   <label for="newPromoIMG" class="control-label">Afbeelding</label>
                   <input type="file" name="newPromoIMG" id ="newPromoIMG">
+                  <br>
                   <label for="chkUniq" class="control-label">Enige actief</label>
                   <input type="checkbox" id="chkUniq" name="chkUniq" value=1>
+                  <br>
                   <input type="submit" value="Opslaan" name="submit">
                 </fieldset>
               </form>
