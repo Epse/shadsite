@@ -1,7 +1,7 @@
 <?php
 
 $shad_backend_sql = new mysqli("localhost", "shad_php", "Rq1vbDY6BD", "shad_backend");
-$target_dir = "../assets/promoIMGS/";
+$target_dir = "./assets/promoIMGS/";
 if (isset($_FILES['promoIMG']['tmp_name'])) {
   $target_file = $target_dir . basename($_FILES['promoIMG']['name']);
   $uploadOK = 1;
@@ -32,7 +32,7 @@ if (isset($_FILES['promoIMG']['tmp_name'])) {
   if (!$uploadOK) {
     echo "Sorry, try again.";
   } else {
-    if (move_uploaded_file($_FILES['promoIMG']['tmp_name'], $target_file)) {
+    if (move_uploaded_file($_FILES['promoIMG']['tmp_name'], "." . $target_file)) {
       echo "The file " . basename($_FILES['promoIMG']['name']) . "has uploaded.";
     } else {
       echo 'An error occured.';
