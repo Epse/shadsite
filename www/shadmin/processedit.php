@@ -42,20 +42,19 @@ if (!empty($_FILES['promoIMG']['name'])) {
 }
 
 // Now process other data
-$mysql_query = "UPDATE promos SET title='" . $_POST['txtTitle'] . ", active=";
+$mysql_query = "UPDATE promos SET title='" . $_POST['txtTitle'] . "', active=";
 
-if($_POST['chkActive']==1) {
+if(!empty($_POST['chkActive'])) {
   $mysql_query = $mysql_query . "1";
 } else {
   $mysql_query = $mysql_query . "0";
 }
 
-if ($uploadOK) {
+if (!empty($uploadOK)) {
   $mysql_query = $mysql_query . " ,html='" . $target_file . "'";
 }
 
-$mysql_query = $mysql_query . " WHERE creationDate=" . $_POST['creationDate'];
-
+$mysql_query = $mysql_query . " WHERE creationDate='" . $_POST['creationDate'] . "'";
 $shad_backend_sql->query($mysql_query);
-
+echo '<a href="./index.php">Keer terug</a>'
 ?>

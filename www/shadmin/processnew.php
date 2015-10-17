@@ -60,5 +60,5 @@ if (isset($_FILES['promoIMG']['tmp_name'])) {
 }
 
 $shad_backend_sql->query($mysql_query);
-
+echo '<a href="./index.php">Keer terug</a>';
 ?>
