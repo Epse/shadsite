@@ -6,7 +6,7 @@
   <p class="text-center">
     Visit SHAD International <b> : </b><a href="http://www.shad.es/en/shad-world/" target="_blank">English</a> - <a href="http://www.shad.es/fr/shad-world/" target="_blank">Fran&ccedil;ais</a> - <a href="http://www.shad.es/de/shad-world/" target="_blank">Deutsch</a>
   </p>
-      <img src="./assets/images/logo-aniversario-shad-80.png" class="img-repsonsive center-block">
+      <img src="./assets/images/logo-aniversario-shad-80.png" class="img-respsonsive center-block">
   </div>
 </div>
 <!-- jQuery library -->
