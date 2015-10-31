@@ -14,21 +14,43 @@ if ($_POST['txtUsername'] == $username && $_POST['txtPassword'] == $password) {
     <title>Shad.be</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap - simplex theme -->
-    <link href="../assets/css/bootstrapshad.css" rel="stylesheet">
+        <!-- Bootstrap - simplex theme -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
     <!-- jQuery library -->
-    <script src="../assets/js/jquery.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
     <!-- Latest compiled JavaScript -->
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <link rel="icon"
       href="../assets/favicon.ico">
-    <!-- prettyPhoto stuffs -->
-    <link rel="stylesheet" href="./assets/css/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
-    <script src="../assets/js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
-    <script src="../assets/js/jquery.rwdImageMaps.min.js"></script>
+    <link href="js/summernote/summernote.css" rel="stylesheet">
+    <script src="js/summernote/summernote.min.js"></script>
   </head>
   <body>
+   <script>
+    $(document).ready(function() {
+        $('#summernote').summernote({
+            height: 200,
+            onImageUpload: function(files, editor, welEditable) {
+                sendFile(files[0], editor, welEditable);
+            }
+        });
+        function sendFile(file, editor, welEditable) {
+            data = new FormData();
+            data.append("file", file);//You can append as many data as you want. Check mozilla docs for this
+            $.ajax({
+                data: data,
+                type: "POST",
+                url: 'savetheuploadedfile.php',
+                cache: false,
+                contentType: false,
+                processData: false,
+                success: function(url) {
+                    editor.insertImage(welEditable, url);
+                }
+            });
+        }
+    });
+    </script>
     <div class="container">
       <!-- header include -->
       <div class="row">
@@ -69,8 +91,22 @@ if ($_POST['txtUsername'] == $username && $_POST['txtPassword'] == $password) {
       </div>
       </div>
       </div>
-      <!-- footer include -->
-      <?php include '../include/footer.php'; ?>
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+         <div class="panel">
+           <div class="panel-body">
+            <form action="processnieuws.php" method="post" enctype="multipart/form-data" onsubmit="return postForm()">
+              <fieldset>
+                <input type="text" name="title" placeholder="Titel">
+                <br>
+                <textarea class="input-block-level" name="content" id="summernote"></textarea>
+              </fieldset>
+              <button type="submit" class="btn btn-primary">Opslaan</button>
+             </form>
+           </div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
@@ -85,22 +121,43 @@ elseif ($_COOKIE['shadmin'] == sha1($username . $password . $_SERVER['REMOTE_ADD
       <title>Shad.be</title>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-
-      <!-- Bootstrap - simplex theme -->
-      <link href="../assets/css/bootstrapshad.css" rel="stylesheet">
+        <!-- Bootstrap - simplex theme -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
       <!-- jQuery library -->
-      <script src="../assets/js/jquery.js" type="text/javascript" charset="utf-8"></script>
+      <script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
       <!-- Latest compiled JavaScript -->
       <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
       <link rel="icon"
         href="../assets/favicon.ico">
-      <!-- prettyPhoto stuffs -->
-      <link rel="stylesheet" href="./assets/css/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
-      <script src="../assets/js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
-      <script src="../assets/js/jquery.rwdImageMaps.min.js"></script>
-
+          <link href="js/summernote/summernote.css" rel="stylesheet">
+    <script src="js/summernote/summernote.min.js"></script>
     </head>
     <body>
+    <script>
+    $(document).ready(function() {
+        $('#summernote').summernote({
+            height: 200,
+            onImageUpload: function(files, editor, welEditable) {
+                sendFile(files[0], editor, welEditable);
+            }
+        });
+        function sendFile(file, editor, welEditable) {
+            data = new FormData();
+            data.append("file", file);//You can append as many data as you want. Check mozilla docs for this
+            $.ajax({
+                data: data,
+                type: "POST",
+                url: 'savetheuploadedfile.php',
+                cache: false,
+                contentType: false,
+                processData: false,
+                success: function(url) {
+                    editor.insertImage(welEditable, url);
+                }
+            });
+        }
+    });
+    </script>
       <div class="container">
         <!-- header include -->
         <div class="row">
@@ -141,8 +198,22 @@ elseif ($_COOKIE['shadmin'] == sha1($username . $password . $_SERVER['REMOTE_ADD
         </div>
         </div>
         </div>
-        <!-- footer include -->
-        <?php include '../include/footer.php'; ?>
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+         <div class="panel">
+           <div class="panel-body">
+            <form action="processnieuws.php" method="post" enctype="multipart/form-data" onsubmit="return postForm()">
+              <fieldset>
+                <input type="text" name="title" placeholder="Titel">
+                <br>
+                <textarea class="input-block-level" name="content" id="summernote"></textarea>
+              </fieldset>
+              <button type="submit" class="btn btn-primary">Opslaan</button>
+             </form>
+            </div>
+          </div>
+        </div>
+      </div>
       </div>
     </body>
   </html>

@@ -74,6 +74,14 @@ $(document).ready(function(e) {
               }
             ?>
             <?php
+              if ($_SERVER['PHP_SELF'] == '/nieuws.php') {
+                echo '<li class="active"><a href="#">Nieuws</a></li>';
+              }
+              else {
+                echo '<li><a href="nieuws.php">Nieuws</a></li>';
+              }
+            ?>
+            <?php
               if ($_SERVER['PHP_SELF'] == '/contact__.php') {
                 echo '<li class="active"><a href="#">Contact</a></li>';
               }
