@@ -14,10 +14,23 @@
     </div>
   </div>
   <!-- jQuery library -->
-  <script src="./assets/js/jquery.js" type="text/javascript" charset="utf-8"></script>
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js" type="text/javascript" charset="utf-8"></script>
   <!-- Latest compiled JavaScript -->
   <script src="./assets/js/bootstrap.min.js"></script>
   <script src="./assets/js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
   <script src="./assets/js/jquery.rwdImageMaps.min.js"></script>
+  <script>
+$(document).ready(function(e) {
+    $('img[usemap]').rwdImageMaps();
+    $("a[rel^='prettyPhoto']").prettyPhoto({social_tools: false});
+    <?php
+    if ($showPromo) {
+      echo "$.prettyPhoto.open('";
+      echo $promoHtml;
+      echo "', '', '');";
+    }
+    ?>
+});
+</script>
 </div>
 </div>

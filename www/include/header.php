@@ -1,16 +1,3 @@
-<script>
-$(document).ready(function(e) {
-    $('img[usemap]').rwdImageMaps();
-    $("a[rel^='prettyPhoto']").prettyPhoto({social_tools: false});
-    <?php
-    if ($showPromo) {
-      echo "$.prettyPhoto.open('";
-      echo $promoHtml;
-      echo "', '', '');";
-    }
-    ?>
-});
-</script>
 <div class="row">
   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 <div class="panel" style="margin-top: 20px;">
