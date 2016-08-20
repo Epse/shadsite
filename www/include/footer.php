@@ -34,3 +34,12 @@ $(document).ready(function(e) {
 </script>
 </div>
 </div>
+<!-- Begin Cookie Consent script http://cookie-consent.org/ -->
+<script type="text/javascript">
+    window.cookieconsent_options = {"message":"SHAD Belgi&euml; gebruikt cookies om uw ervaring te verbeteren. SHAD Belgique utilize des cookies pour faire mieux votre exp&eacute;rience sur notre site.","dismiss":"OK","learnMore":"More info","link":null,"theme":"dark-bottom"}; var cookieconsent_id = 'e220014b-b376-4d6e-a6b0-8c5426ff5106';</script>
+
+<script type="text/javascript" src="//cdn.front.to/libs/cookieconsent.min.4.js"></script>
+
+<noscript><a href="http://cookie-consent.org/">EU cookie consent script</a> <a href="http://eu-cookie-law.info/">EU cookie law</a></noscript>
+<!-- End Cookie Consent script -->
+
